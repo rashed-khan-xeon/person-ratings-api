@@ -1,0 +1,1000 @@
+INFO - 2018-01-08 21:37:17 --> Config Class Initialized
+INFO - 2018-01-08 21:37:17 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:37:17 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:37:17 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:37:17 --> URI Class Initialized
+INFO - 2018-01-08 21:37:17 --> Router Class Initialized
+INFO - 2018-01-08 21:37:17 --> Output Class Initialized
+INFO - 2018-01-08 21:37:17 --> Security Class Initialized
+DEBUG - 2018-01-08 21:37:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:37:17 --> Input Class Initialized
+INFO - 2018-01-08 21:37:17 --> Language Class Initialized
+INFO - 2018-01-08 21:37:17 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:37:17 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:37:17 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:37:17 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:37:17 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:37:17 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:37:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:37:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:37:17 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:37:17 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:37:17 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:37:17 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:37:17 --> Model Class Initialized
+INFO - 2018-01-08 21:38:26 --> Config Class Initialized
+INFO - 2018-01-08 21:38:26 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:38:26 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:38:26 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:38:26 --> URI Class Initialized
+INFO - 2018-01-08 21:38:26 --> Router Class Initialized
+INFO - 2018-01-08 21:38:26 --> Output Class Initialized
+INFO - 2018-01-08 21:38:26 --> Security Class Initialized
+DEBUG - 2018-01-08 21:38:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:38:26 --> Input Class Initialized
+INFO - 2018-01-08 21:38:26 --> Language Class Initialized
+INFO - 2018-01-08 21:38:26 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:38:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:38:26 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:38:26 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:38:26 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:38:26 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:38:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:38:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:38:26 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:38:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:38:26 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:38:26 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:38:26 --> Model Class Initialized
+INFO - 2018-01-08 21:40:47 --> Config Class Initialized
+INFO - 2018-01-08 21:40:47 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:40:47 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:40:48 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:40:48 --> URI Class Initialized
+INFO - 2018-01-08 21:40:48 --> Router Class Initialized
+INFO - 2018-01-08 21:40:48 --> Output Class Initialized
+INFO - 2018-01-08 21:40:48 --> Security Class Initialized
+DEBUG - 2018-01-08 21:40:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:40:48 --> Input Class Initialized
+INFO - 2018-01-08 21:40:48 --> Language Class Initialized
+INFO - 2018-01-08 21:40:48 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:40:48 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:40:48 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:40:48 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:40:48 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:40:48 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:40:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:40:48 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:40:48 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:40:48 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:40:48 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:40:48 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:40:48 --> Model Class Initialized
+INFO - 2018-01-08 21:40:48 --> Final output sent to browser
+DEBUG - 2018-01-08 21:40:48 --> Total execution time: 0.2728
+INFO - 2018-01-08 21:40:49 --> Config Class Initialized
+INFO - 2018-01-08 21:40:49 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:40:49 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:40:49 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:40:49 --> URI Class Initialized
+INFO - 2018-01-08 21:40:49 --> Router Class Initialized
+INFO - 2018-01-08 21:40:49 --> Output Class Initialized
+INFO - 2018-01-08 21:40:49 --> Security Class Initialized
+DEBUG - 2018-01-08 21:40:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:40:49 --> Input Class Initialized
+INFO - 2018-01-08 21:40:49 --> Language Class Initialized
+INFO - 2018-01-08 21:40:49 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:40:49 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:40:49 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:40:49 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:40:49 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:40:49 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:40:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:40:49 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:40:49 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:40:49 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:40:49 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:40:49 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:40:49 --> Model Class Initialized
+INFO - 2018-01-08 21:40:50 --> Final output sent to browser
+DEBUG - 2018-01-08 21:40:50 --> Total execution time: 0.2336
+INFO - 2018-01-08 21:41:02 --> Config Class Initialized
+INFO - 2018-01-08 21:41:02 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:41:02 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:41:02 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:41:02 --> URI Class Initialized
+INFO - 2018-01-08 21:41:02 --> Router Class Initialized
+INFO - 2018-01-08 21:41:02 --> Output Class Initialized
+INFO - 2018-01-08 21:41:02 --> Security Class Initialized
+DEBUG - 2018-01-08 21:41:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:41:02 --> Input Class Initialized
+INFO - 2018-01-08 21:41:02 --> Language Class Initialized
+INFO - 2018-01-08 21:41:02 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:41:02 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:41:02 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:41:02 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:41:02 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:41:02 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:41:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:41:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:41:02 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:41:02 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:41:02 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:41:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:41:02 --> Model Class Initialized
+INFO - 2018-01-08 21:41:02 --> Final output sent to browser
+DEBUG - 2018-01-08 21:41:02 --> Total execution time: 0.1670
+INFO - 2018-01-08 21:47:15 --> Config Class Initialized
+INFO - 2018-01-08 21:47:15 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:47:15 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:47:15 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:47:15 --> URI Class Initialized
+INFO - 2018-01-08 21:47:15 --> Router Class Initialized
+INFO - 2018-01-08 21:47:15 --> Output Class Initialized
+INFO - 2018-01-08 21:47:15 --> Security Class Initialized
+DEBUG - 2018-01-08 21:47:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:47:15 --> Input Class Initialized
+INFO - 2018-01-08 21:47:15 --> Language Class Initialized
+INFO - 2018-01-08 21:47:15 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:47:15 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:47:15 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:47:15 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:47:15 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:47:15 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:47:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:47:15 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:47:15 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:47:15 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:47:15 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:47:15 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:47:15 --> Model Class Initialized
+INFO - 2018-01-08 21:47:16 --> Final output sent to browser
+DEBUG - 2018-01-08 21:47:16 --> Total execution time: 0.9248
+INFO - 2018-01-08 21:47:20 --> Config Class Initialized
+INFO - 2018-01-08 21:47:20 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:47:20 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:47:20 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:47:20 --> URI Class Initialized
+INFO - 2018-01-08 21:47:20 --> Router Class Initialized
+INFO - 2018-01-08 21:47:20 --> Output Class Initialized
+INFO - 2018-01-08 21:47:20 --> Security Class Initialized
+DEBUG - 2018-01-08 21:47:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:47:20 --> Input Class Initialized
+INFO - 2018-01-08 21:47:20 --> Language Class Initialized
+INFO - 2018-01-08 21:47:20 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:47:20 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:47:20 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:47:20 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:47:20 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:47:20 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:47:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:47:20 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:47:20 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:47:20 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:47:20 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:47:20 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:47:20 --> Model Class Initialized
+ERROR - 2018-01-08 21:47:20 --> Severity: Notice --> Trying to get property of non-object F:\xampp\htdocs\ratings\application\models\LoginModel.php 19
+ERROR - 2018-01-08 21:47:20 --> Severity: Warning --> Creating default object from empty value F:\xampp\htdocs\ratings\application\models\LoginModel.php 22
+INFO - 2018-01-08 21:47:20 --> Final output sent to browser
+DEBUG - 2018-01-08 21:47:20 --> Total execution time: 0.2057
+INFO - 2018-01-08 21:47:45 --> Config Class Initialized
+INFO - 2018-01-08 21:47:45 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:47:45 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:47:45 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:47:45 --> URI Class Initialized
+INFO - 2018-01-08 21:47:45 --> Router Class Initialized
+INFO - 2018-01-08 21:47:45 --> Output Class Initialized
+INFO - 2018-01-08 21:47:45 --> Security Class Initialized
+DEBUG - 2018-01-08 21:47:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:47:46 --> Input Class Initialized
+INFO - 2018-01-08 21:47:46 --> Language Class Initialized
+INFO - 2018-01-08 21:47:46 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:47:46 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:47:46 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:47:46 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:47:46 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:47:46 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:47:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:47:46 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:47:46 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:47:46 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:47:46 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:47:46 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:47:46 --> Model Class Initialized
+INFO - 2018-01-08 21:47:46 --> Final output sent to browser
+DEBUG - 2018-01-08 21:47:46 --> Total execution time: 0.1957
+INFO - 2018-01-08 21:47:49 --> Config Class Initialized
+INFO - 2018-01-08 21:47:49 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:47:49 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:47:49 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:47:49 --> URI Class Initialized
+INFO - 2018-01-08 21:47:49 --> Router Class Initialized
+INFO - 2018-01-08 21:47:49 --> Output Class Initialized
+INFO - 2018-01-08 21:47:49 --> Security Class Initialized
+DEBUG - 2018-01-08 21:47:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:47:49 --> Input Class Initialized
+INFO - 2018-01-08 21:47:50 --> Language Class Initialized
+INFO - 2018-01-08 21:47:50 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:47:50 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:47:50 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:47:50 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:47:50 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:47:50 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:47:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:47:50 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:47:50 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:47:50 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:47:50 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:47:50 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:47:50 --> Model Class Initialized
+ERROR - 2018-01-08 21:47:50 --> Severity: Notice --> Trying to get property of non-object F:\xampp\htdocs\ratings\application\models\LoginModel.php 19
+ERROR - 2018-01-08 21:47:50 --> Severity: Warning --> Creating default object from empty value F:\xampp\htdocs\ratings\application\models\LoginModel.php 22
+INFO - 2018-01-08 21:47:50 --> Final output sent to browser
+DEBUG - 2018-01-08 21:47:50 --> Total execution time: 0.1694
+INFO - 2018-01-08 21:51:09 --> Config Class Initialized
+INFO - 2018-01-08 21:51:09 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:51:09 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:51:09 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:51:09 --> URI Class Initialized
+INFO - 2018-01-08 21:51:09 --> Router Class Initialized
+INFO - 2018-01-08 21:51:09 --> Output Class Initialized
+INFO - 2018-01-08 21:51:09 --> Security Class Initialized
+DEBUG - 2018-01-08 21:51:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:51:09 --> Input Class Initialized
+INFO - 2018-01-08 21:51:09 --> Language Class Initialized
+INFO - 2018-01-08 21:51:09 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:51:09 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:51:09 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:51:09 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:51:09 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:51:09 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:51:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:51:09 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:51:09 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:51:09 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:51:09 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:51:09 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:51:09 --> Model Class Initialized
+INFO - 2018-01-08 21:51:09 --> Final output sent to browser
+DEBUG - 2018-01-08 21:51:09 --> Total execution time: 0.2024
+INFO - 2018-01-08 21:51:14 --> Config Class Initialized
+INFO - 2018-01-08 21:51:14 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:51:14 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:51:14 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:51:14 --> URI Class Initialized
+INFO - 2018-01-08 21:51:14 --> Router Class Initialized
+INFO - 2018-01-08 21:51:14 --> Output Class Initialized
+INFO - 2018-01-08 21:51:14 --> Security Class Initialized
+DEBUG - 2018-01-08 21:51:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:51:14 --> Input Class Initialized
+INFO - 2018-01-08 21:51:14 --> Language Class Initialized
+INFO - 2018-01-08 21:51:14 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:51:14 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:51:14 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:51:14 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:51:14 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:51:14 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:51:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:51:14 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:51:14 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:51:14 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:51:14 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:51:14 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:51:14 --> Model Class Initialized
+INFO - 2018-01-08 21:51:14 --> Final output sent to browser
+DEBUG - 2018-01-08 21:51:14 --> Total execution time: 0.1255
+INFO - 2018-01-08 21:53:24 --> Config Class Initialized
+INFO - 2018-01-08 21:53:24 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:53:24 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:53:24 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:53:24 --> URI Class Initialized
+INFO - 2018-01-08 21:53:24 --> Router Class Initialized
+INFO - 2018-01-08 21:53:24 --> Output Class Initialized
+INFO - 2018-01-08 21:53:24 --> Security Class Initialized
+DEBUG - 2018-01-08 21:53:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:53:24 --> Input Class Initialized
+INFO - 2018-01-08 21:53:24 --> Language Class Initialized
+INFO - 2018-01-08 21:53:24 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:53:24 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:53:24 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:53:24 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:53:24 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:53:24 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:53:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:53:24 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:53:24 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:53:24 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:53:24 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:53:24 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:53:24 --> Model Class Initialized
+INFO - 2018-01-08 21:53:25 --> Final output sent to browser
+DEBUG - 2018-01-08 21:53:25 --> Total execution time: 0.9192
+INFO - 2018-01-08 21:53:28 --> Config Class Initialized
+INFO - 2018-01-08 21:53:28 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:53:28 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:53:28 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:53:28 --> URI Class Initialized
+INFO - 2018-01-08 21:53:28 --> Router Class Initialized
+INFO - 2018-01-08 21:53:28 --> Output Class Initialized
+INFO - 2018-01-08 21:53:28 --> Security Class Initialized
+DEBUG - 2018-01-08 21:53:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:53:28 --> Input Class Initialized
+INFO - 2018-01-08 21:53:28 --> Language Class Initialized
+INFO - 2018-01-08 21:53:28 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:53:28 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:53:28 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:53:28 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:53:28 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:53:28 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:53:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:53:28 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:53:28 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:53:28 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:53:28 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:53:28 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:53:28 --> Model Class Initialized
+INFO - 2018-01-08 21:53:28 --> Final output sent to browser
+DEBUG - 2018-01-08 21:53:28 --> Total execution time: 0.1266
+INFO - 2018-01-08 21:53:36 --> Config Class Initialized
+INFO - 2018-01-08 21:53:36 --> Hooks Class Initialized
+INFO - 2018-01-08 21:53:36 --> Config Class Initialized
+DEBUG - 2018-01-08 21:53:36 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:53:37 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:53:37 --> Hooks Class Initialized
+INFO - 2018-01-08 21:53:37 --> URI Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:53:37 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:53:37 --> Router Class Initialized
+INFO - 2018-01-08 21:53:37 --> URI Class Initialized
+INFO - 2018-01-08 21:53:37 --> Output Class Initialized
+INFO - 2018-01-08 21:53:37 --> Security Class Initialized
+INFO - 2018-01-08 21:53:37 --> Router Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:53:37 --> Output Class Initialized
+INFO - 2018-01-08 21:53:37 --> Input Class Initialized
+INFO - 2018-01-08 21:53:37 --> Security Class Initialized
+INFO - 2018-01-08 21:53:37 --> Language Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:53:37 --> Input Class Initialized
+INFO - 2018-01-08 21:53:37 --> Loader Class Initialized
+INFO - 2018-01-08 21:53:37 --> Language Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:53:37 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:53:37 --> Loader Class Initialized
+INFO - 2018-01-08 21:53:37 --> Helper loaded: file_helper
+DEBUG - 2018-01-08 21:53:37 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:53:37 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:53:37 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:53:37 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:53:37 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:53:37 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:53:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:53:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:53:37 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:53:37 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-01-08 21:53:37 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:53:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:53:37 --> Controller Class Initialized
+INFO - 2018-01-08 21:53:37 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:53:37 --> Language file loaded: language/english/rest_controller_lang.php
+DEBUG - 2018-01-08 21:53:37 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:53:37 --> Model Class Initialized
+INFO - 2018-01-08 21:53:37 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:53:37 --> Language file loaded: language/english/rest_controller_lang.php
+ERROR - 2018-01-08 21:53:37 --> Severity: Notice --> Trying to get property of non-object F:\xampp\htdocs\ratings\application\models\UserModel.php 26
+INFO - 2018-01-08 21:53:37 --> Model Class Initialized
+ERROR - 2018-01-08 21:53:37 --> Severity: Warning --> Creating default object from empty value F:\xampp\htdocs\ratings\application\models\UserModel.php 29
+INFO - 2018-01-08 21:53:37 --> Final output sent to browser
+INFO - 2018-01-08 21:53:37 --> Model Class Initialized
+DEBUG - 2018-01-08 21:53:37 --> Total execution time: 0.1490
+INFO - 2018-01-08 21:53:37 --> Model Class Initialized
+INFO - 2018-01-08 21:53:37 --> Final output sent to browser
+DEBUG - 2018-01-08 21:53:37 --> Total execution time: 0.1359
+INFO - 2018-01-08 21:56:32 --> Config Class Initialized
+INFO - 2018-01-08 21:56:32 --> Hooks Class Initialized
+INFO - 2018-01-08 21:56:32 --> Config Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:56:32 --> Hooks Class Initialized
+INFO - 2018-01-08 21:56:32 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:56:32 --> URI Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:56:32 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:56:32 --> Router Class Initialized
+INFO - 2018-01-08 21:56:32 --> URI Class Initialized
+INFO - 2018-01-08 21:56:32 --> Output Class Initialized
+INFO - 2018-01-08 21:56:32 --> Router Class Initialized
+INFO - 2018-01-08 21:56:32 --> Security Class Initialized
+INFO - 2018-01-08 21:56:32 --> Output Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:56:32 --> Input Class Initialized
+INFO - 2018-01-08 21:56:32 --> Security Class Initialized
+INFO - 2018-01-08 21:56:32 --> Language Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:56:32 --> Input Class Initialized
+INFO - 2018-01-08 21:56:32 --> Loader Class Initialized
+INFO - 2018-01-08 21:56:32 --> Language Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:56:32 --> Loader Class Initialized
+INFO - 2018-01-08 21:56:32 --> Helper loaded: url_helper
+DEBUG - 2018-01-08 21:56:32 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:56:32 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:56:32 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:56:32 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:56:32 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:56:32 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:56:32 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:56:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:56:32 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:56:32 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:56:32 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-01-08 21:56:32 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:56:32 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:56:32 --> Controller Class Initialized
+INFO - 2018-01-08 21:56:32 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:56:32 --> Language file loaded: language/english/rest_controller_lang.php
+DEBUG - 2018-01-08 21:56:32 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:56:32 --> Model Class Initialized
+INFO - 2018-01-08 21:56:32 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:56:32 --> Language file loaded: language/english/rest_controller_lang.php
+ERROR - 2018-01-08 21:56:32 --> Severity: Notice --> Trying to get property of non-object F:\xampp\htdocs\ratings\application\models\UserModel.php 26
+INFO - 2018-01-08 21:56:32 --> Model Class Initialized
+ERROR - 2018-01-08 21:56:32 --> Severity: Warning --> Creating default object from empty value F:\xampp\htdocs\ratings\application\models\UserModel.php 29
+INFO - 2018-01-08 21:56:32 --> Final output sent to browser
+INFO - 2018-01-08 21:56:32 --> Model Class Initialized
+INFO - 2018-01-08 21:56:32 --> Model Class Initialized
+DEBUG - 2018-01-08 21:56:32 --> Total execution time: 0.1637
+INFO - 2018-01-08 21:56:32 --> Final output sent to browser
+DEBUG - 2018-01-08 21:56:32 --> Total execution time: 0.1464
+INFO - 2018-01-08 21:57:34 --> Config Class Initialized
+INFO - 2018-01-08 21:57:34 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:57:34 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:57:34 --> Config Class Initialized
+INFO - 2018-01-08 21:57:34 --> Hooks Class Initialized
+INFO - 2018-01-08 21:57:34 --> URI Class Initialized
+INFO - 2018-01-08 21:57:34 --> Router Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:57:34 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:57:34 --> Output Class Initialized
+INFO - 2018-01-08 21:57:34 --> URI Class Initialized
+INFO - 2018-01-08 21:57:34 --> Security Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:57:34 --> Router Class Initialized
+INFO - 2018-01-08 21:57:34 --> Input Class Initialized
+INFO - 2018-01-08 21:57:34 --> Output Class Initialized
+INFO - 2018-01-08 21:57:34 --> Language Class Initialized
+INFO - 2018-01-08 21:57:34 --> Security Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:57:34 --> Loader Class Initialized
+INFO - 2018-01-08 21:57:34 --> Input Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:57:34 --> Language Class Initialized
+INFO - 2018-01-08 21:57:34 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:57:34 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:57:34 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:57:34 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:57:34 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:57:34 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:57:34 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:57:34 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:57:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:57:34 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:57:34 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:57:34 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:57:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-01-08 21:57:34 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:57:34 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:57:34 --> Controller Class Initialized
+INFO - 2018-01-08 21:57:34 --> Helper loaded: inflector_helper
+DEBUG - 2018-01-08 21:57:34 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:57:34 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:57:34 --> Model Class Initialized
+INFO - 2018-01-08 21:57:34 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:57:34 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:57:34 --> Final output sent to browser
+DEBUG - 2018-01-08 21:57:34 --> Total execution time: 0.1980
+INFO - 2018-01-08 21:57:34 --> Model Class Initialized
+INFO - 2018-01-08 21:57:34 --> Model Class Initialized
+INFO - 2018-01-08 21:57:34 --> Model Class Initialized
+INFO - 2018-01-08 21:57:35 --> Final output sent to browser
+DEBUG - 2018-01-08 21:57:35 --> Total execution time: 0.1659
+INFO - 2018-01-08 21:57:35 --> Config Class Initialized
+INFO - 2018-01-08 21:57:35 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:57:35 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:57:35 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:57:35 --> URI Class Initialized
+INFO - 2018-01-08 21:57:35 --> Router Class Initialized
+INFO - 2018-01-08 21:57:35 --> Output Class Initialized
+INFO - 2018-01-08 21:57:35 --> Security Class Initialized
+DEBUG - 2018-01-08 21:57:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:57:35 --> Input Class Initialized
+INFO - 2018-01-08 21:57:35 --> Language Class Initialized
+INFO - 2018-01-08 21:57:35 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:57:35 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:57:35 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:57:35 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:57:35 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:57:35 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:57:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:57:35 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:57:35 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:57:35 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:57:35 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:57:35 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:57:35 --> Model Class Initialized
+INFO - 2018-01-08 21:57:35 --> Model Class Initialized
+INFO - 2018-01-08 21:57:35 --> Model Class Initialized
+INFO - 2018-01-08 21:57:35 --> Model Class Initialized
+INFO - 2018-01-08 21:57:35 --> Final output sent to browser
+DEBUG - 2018-01-08 21:57:35 --> Total execution time: 0.1608
+INFO - 2018-01-08 21:57:55 --> Config Class Initialized
+INFO - 2018-01-08 21:57:55 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:57:55 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:57:55 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:57:55 --> URI Class Initialized
+INFO - 2018-01-08 21:57:55 --> Router Class Initialized
+INFO - 2018-01-08 21:57:55 --> Output Class Initialized
+INFO - 2018-01-08 21:57:55 --> Security Class Initialized
+DEBUG - 2018-01-08 21:57:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:57:55 --> Input Class Initialized
+INFO - 2018-01-08 21:57:55 --> Language Class Initialized
+INFO - 2018-01-08 21:57:55 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:57:55 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:57:55 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:57:55 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:57:55 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:57:55 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:57:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:57:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:57:55 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:57:55 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:57:55 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:57:55 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:57:55 --> Model Class Initialized
+INFO - 2018-01-08 21:57:55 --> Model Class Initialized
+INFO - 2018-01-08 21:57:55 --> Final output sent to browser
+DEBUG - 2018-01-08 21:57:55 --> Total execution time: 0.1669
+INFO - 2018-01-08 21:58:07 --> Config Class Initialized
+INFO - 2018-01-08 21:58:07 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:07 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:07 --> Config Class Initialized
+INFO - 2018-01-08 21:58:07 --> Hooks Class Initialized
+INFO - 2018-01-08 21:58:07 --> URI Class Initialized
+INFO - 2018-01-08 21:58:07 --> Router Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:07 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:07 --> Output Class Initialized
+INFO - 2018-01-08 21:58:07 --> URI Class Initialized
+INFO - 2018-01-08 21:58:07 --> Security Class Initialized
+INFO - 2018-01-08 21:58:07 --> Router Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:07 --> Input Class Initialized
+INFO - 2018-01-08 21:58:07 --> Output Class Initialized
+INFO - 2018-01-08 21:58:07 --> Language Class Initialized
+INFO - 2018-01-08 21:58:07 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:07 --> Loader Class Initialized
+INFO - 2018-01-08 21:58:07 --> Input Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:07 --> Language Class Initialized
+INFO - 2018-01-08 21:58:07 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:07 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:07 --> Loader Class Initialized
+INFO - 2018-01-08 21:58:07 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:58:07 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:07 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:07 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:58:07 --> Helper loaded: file_helper
+DEBUG - 2018-01-08 21:58:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:07 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:07 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:07 --> Controller Class Initialized
+INFO - 2018-01-08 21:58:07 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:07 --> Helper loaded: inflector_helper
+DEBUG - 2018-01-08 21:58:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:07 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:07 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:07 --> Controller Class Initialized
+INFO - 2018-01-08 21:58:07 --> Model Class Initialized
+DEBUG - 2018-01-08 21:58:07 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:07 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:07 --> Total execution time: 0.1562
+INFO - 2018-01-08 21:58:07 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:07 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:07 --> Model Class Initialized
+INFO - 2018-01-08 21:58:07 --> Model Class Initialized
+INFO - 2018-01-08 21:58:07 --> Model Class Initialized
+INFO - 2018-01-08 21:58:07 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:07 --> Total execution time: 0.1403
+INFO - 2018-01-08 21:58:08 --> Config Class Initialized
+INFO - 2018-01-08 21:58:08 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:08 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:08 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:08 --> URI Class Initialized
+INFO - 2018-01-08 21:58:08 --> Router Class Initialized
+INFO - 2018-01-08 21:58:08 --> Output Class Initialized
+INFO - 2018-01-08 21:58:08 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:08 --> Input Class Initialized
+INFO - 2018-01-08 21:58:08 --> Language Class Initialized
+INFO - 2018-01-08 21:58:08 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:58:08 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:08 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:08 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:08 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:08 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:08 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:08 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:58:08 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:08 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:08 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:08 --> Model Class Initialized
+INFO - 2018-01-08 21:58:08 --> Model Class Initialized
+INFO - 2018-01-08 21:58:08 --> Model Class Initialized
+INFO - 2018-01-08 21:58:08 --> Model Class Initialized
+INFO - 2018-01-08 21:58:08 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:08 --> Total execution time: 0.1730
+INFO - 2018-01-08 21:58:15 --> Config Class Initialized
+INFO - 2018-01-08 21:58:15 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:15 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:15 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:15 --> URI Class Initialized
+INFO - 2018-01-08 21:58:15 --> Router Class Initialized
+INFO - 2018-01-08 21:58:15 --> Output Class Initialized
+INFO - 2018-01-08 21:58:15 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:15 --> Input Class Initialized
+INFO - 2018-01-08 21:58:15 --> Language Class Initialized
+INFO - 2018-01-08 21:58:15 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:58:15 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:15 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:15 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:15 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:15 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:15 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:15 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:58:15 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:15 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:15 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:15 --> Model Class Initialized
+INFO - 2018-01-08 21:58:15 --> Model Class Initialized
+INFO - 2018-01-08 21:58:15 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:15 --> Total execution time: 0.1659
+INFO - 2018-01-08 21:58:54 --> Config Class Initialized
+INFO - 2018-01-08 21:58:54 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:54 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:54 --> Config Class Initialized
+INFO - 2018-01-08 21:58:54 --> Hooks Class Initialized
+INFO - 2018-01-08 21:58:54 --> URI Class Initialized
+INFO - 2018-01-08 21:58:54 --> Router Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:54 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:54 --> Output Class Initialized
+INFO - 2018-01-08 21:58:54 --> URI Class Initialized
+INFO - 2018-01-08 21:58:54 --> Security Class Initialized
+INFO - 2018-01-08 21:58:54 --> Router Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:54 --> Input Class Initialized
+INFO - 2018-01-08 21:58:54 --> Output Class Initialized
+INFO - 2018-01-08 21:58:54 --> Language Class Initialized
+INFO - 2018-01-08 21:58:54 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:54 --> Loader Class Initialized
+INFO - 2018-01-08 21:58:54 --> Input Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:54 --> Language Class Initialized
+INFO - 2018-01-08 21:58:54 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:54 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:54 --> Loader Class Initialized
+INFO - 2018-01-08 21:58:54 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:58:54 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:54 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:54 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:58:54 --> Helper loaded: file_helper
+DEBUG - 2018-01-08 21:58:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:54 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:54 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:54 --> Controller Class Initialized
+INFO - 2018-01-08 21:58:54 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:54 --> Helper loaded: inflector_helper
+DEBUG - 2018-01-08 21:58:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:54 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:54 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:54 --> Controller Class Initialized
+INFO - 2018-01-08 21:58:54 --> Model Class Initialized
+DEBUG - 2018-01-08 21:58:54 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:54 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:54 --> Total execution time: 0.1592
+INFO - 2018-01-08 21:58:54 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:54 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:54 --> Model Class Initialized
+INFO - 2018-01-08 21:58:54 --> Model Class Initialized
+INFO - 2018-01-08 21:58:54 --> Model Class Initialized
+INFO - 2018-01-08 21:58:54 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:54 --> Total execution time: 0.1479
+INFO - 2018-01-08 21:58:55 --> Config Class Initialized
+INFO - 2018-01-08 21:58:55 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:55 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:55 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:55 --> URI Class Initialized
+INFO - 2018-01-08 21:58:55 --> Router Class Initialized
+INFO - 2018-01-08 21:58:55 --> Output Class Initialized
+INFO - 2018-01-08 21:58:55 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:55 --> Input Class Initialized
+INFO - 2018-01-08 21:58:55 --> Language Class Initialized
+INFO - 2018-01-08 21:58:55 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:58:55 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:55 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:55 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:55 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:55 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:55 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:58:55 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:55 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:55 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:55 --> Model Class Initialized
+INFO - 2018-01-08 21:58:55 --> Model Class Initialized
+INFO - 2018-01-08 21:58:55 --> Model Class Initialized
+INFO - 2018-01-08 21:58:55 --> Model Class Initialized
+INFO - 2018-01-08 21:58:55 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:55 --> Total execution time: 0.1601
+INFO - 2018-01-08 21:58:58 --> Config Class Initialized
+INFO - 2018-01-08 21:58:58 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:58:58 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:58:58 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:58:58 --> URI Class Initialized
+INFO - 2018-01-08 21:58:58 --> Router Class Initialized
+INFO - 2018-01-08 21:58:58 --> Output Class Initialized
+INFO - 2018-01-08 21:58:58 --> Security Class Initialized
+DEBUG - 2018-01-08 21:58:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:58:58 --> Input Class Initialized
+INFO - 2018-01-08 21:58:58 --> Language Class Initialized
+INFO - 2018-01-08 21:58:58 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:58:58 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:58:58 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:58:58 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:58:58 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:58:58 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:58:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:58:58 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:58:58 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:58:58 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:58:58 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:58:58 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:58:58 --> Model Class Initialized
+INFO - 2018-01-08 21:58:58 --> Model Class Initialized
+INFO - 2018-01-08 21:58:58 --> Final output sent to browser
+DEBUG - 2018-01-08 21:58:58 --> Total execution time: 0.1813
+INFO - 2018-01-08 21:59:01 --> Config Class Initialized
+INFO - 2018-01-08 21:59:01 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:01 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:01 --> Config Class Initialized
+INFO - 2018-01-08 21:59:01 --> Hooks Class Initialized
+INFO - 2018-01-08 21:59:01 --> URI Class Initialized
+INFO - 2018-01-08 21:59:01 --> Router Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:01 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:01 --> Output Class Initialized
+INFO - 2018-01-08 21:59:01 --> URI Class Initialized
+INFO - 2018-01-08 21:59:01 --> Security Class Initialized
+INFO - 2018-01-08 21:59:01 --> Router Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:01 --> Input Class Initialized
+INFO - 2018-01-08 21:59:01 --> Output Class Initialized
+INFO - 2018-01-08 21:59:01 --> Language Class Initialized
+INFO - 2018-01-08 21:59:01 --> Security Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:01 --> Loader Class Initialized
+INFO - 2018-01-08 21:59:01 --> Input Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:01 --> Language Class Initialized
+INFO - 2018-01-08 21:59:01 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:01 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:01 --> Loader Class Initialized
+INFO - 2018-01-08 21:59:01 --> Helper loaded: cookie_helper
+DEBUG - 2018-01-08 21:59:01 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:01 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:01 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:59:01 --> Helper loaded: file_helper
+DEBUG - 2018-01-08 21:59:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:01 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:01 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:01 --> Controller Class Initialized
+INFO - 2018-01-08 21:59:01 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:01 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+DEBUG - 2018-01-08 21:59:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:01 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:01 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:01 --> Controller Class Initialized
+INFO - 2018-01-08 21:59:01 --> Language file loaded: language/english/rest_controller_lang.php
+DEBUG - 2018-01-08 21:59:01 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:01 --> Model Class Initialized
+INFO - 2018-01-08 21:59:01 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:01 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:01 --> Total execution time: 0.2011
+INFO - 2018-01-08 21:59:01 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:01 --> Model Class Initialized
+INFO - 2018-01-08 21:59:01 --> Model Class Initialized
+INFO - 2018-01-08 21:59:01 --> Model Class Initialized
+INFO - 2018-01-08 21:59:01 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:01 --> Total execution time: 0.1722
+INFO - 2018-01-08 21:59:02 --> Config Class Initialized
+INFO - 2018-01-08 21:59:02 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:59:02 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:02 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:02 --> URI Class Initialized
+INFO - 2018-01-08 21:59:02 --> Router Class Initialized
+INFO - 2018-01-08 21:59:02 --> Output Class Initialized
+INFO - 2018-01-08 21:59:02 --> Security Class Initialized
+DEBUG - 2018-01-08 21:59:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:02 --> Input Class Initialized
+INFO - 2018-01-08 21:59:02 --> Language Class Initialized
+INFO - 2018-01-08 21:59:02 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:59:02 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:02 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:02 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:02 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:02 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:02 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:59:02 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:02 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:02 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:02 --> Model Class Initialized
+INFO - 2018-01-08 21:59:02 --> Model Class Initialized
+INFO - 2018-01-08 21:59:02 --> Model Class Initialized
+INFO - 2018-01-08 21:59:02 --> Model Class Initialized
+INFO - 2018-01-08 21:59:02 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:02 --> Total execution time: 0.1698
+INFO - 2018-01-08 21:59:11 --> Config Class Initialized
+INFO - 2018-01-08 21:59:11 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:59:11 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:11 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:11 --> URI Class Initialized
+INFO - 2018-01-08 21:59:11 --> Router Class Initialized
+INFO - 2018-01-08 21:59:11 --> Output Class Initialized
+INFO - 2018-01-08 21:59:11 --> Security Class Initialized
+DEBUG - 2018-01-08 21:59:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:11 --> Input Class Initialized
+INFO - 2018-01-08 21:59:11 --> Language Class Initialized
+INFO - 2018-01-08 21:59:11 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:59:11 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:11 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:11 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:11 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:11 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:11 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:11 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:59:11 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:11 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:11 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:11 --> Model Class Initialized
+INFO - 2018-01-08 21:59:11 --> Model Class Initialized
+INFO - 2018-01-08 21:59:11 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:11 --> Total execution time: 0.1345
+INFO - 2018-01-08 21:59:23 --> Config Class Initialized
+INFO - 2018-01-08 21:59:23 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:59:23 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:23 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:23 --> URI Class Initialized
+INFO - 2018-01-08 21:59:23 --> Router Class Initialized
+INFO - 2018-01-08 21:59:23 --> Output Class Initialized
+INFO - 2018-01-08 21:59:23 --> Security Class Initialized
+DEBUG - 2018-01-08 21:59:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:23 --> Input Class Initialized
+INFO - 2018-01-08 21:59:23 --> Language Class Initialized
+INFO - 2018-01-08 21:59:23 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:59:23 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:23 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:23 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:23 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:23 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:23 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:23 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:59:23 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:23 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:23 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:23 --> Model Class Initialized
+INFO - 2018-01-08 21:59:23 --> Model Class Initialized
+INFO - 2018-01-08 21:59:23 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:23 --> Total execution time: 0.1673
+INFO - 2018-01-08 21:59:26 --> Config Class Initialized
+INFO - 2018-01-08 21:59:26 --> Hooks Class Initialized
+INFO - 2018-01-08 21:59:26 --> Config Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:26 --> Hooks Class Initialized
+INFO - 2018-01-08 21:59:26 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:26 --> URI Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:26 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:26 --> Router Class Initialized
+INFO - 2018-01-08 21:59:26 --> URI Class Initialized
+INFO - 2018-01-08 21:59:26 --> Output Class Initialized
+INFO - 2018-01-08 21:59:26 --> Security Class Initialized
+INFO - 2018-01-08 21:59:26 --> Router Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:26 --> Output Class Initialized
+INFO - 2018-01-08 21:59:26 --> Input Class Initialized
+INFO - 2018-01-08 21:59:26 --> Security Class Initialized
+INFO - 2018-01-08 21:59:26 --> Language Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:26 --> Input Class Initialized
+INFO - 2018-01-08 21:59:26 --> Loader Class Initialized
+INFO - 2018-01-08 21:59:26 --> Language Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:26 --> Loader Class Initialized
+INFO - 2018-01-08 21:59:26 --> Helper loaded: url_helper
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:26 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:26 --> Database Driver Class Initialized
+INFO - 2018-01-08 21:59:26 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:26 --> Session: Class initialized using 'files' driver.
+DEBUG - 2018-01-08 21:59:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:26 --> Controller Class Initialized
+INFO - 2018-01-08 21:59:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:26 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:26 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:26 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:26 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:26 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:26 --> Total execution time: 0.1564
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:26 --> Total execution time: 0.1321
+INFO - 2018-01-08 21:59:26 --> Config Class Initialized
+INFO - 2018-01-08 21:59:26 --> Hooks Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> UTF-8 Support Enabled
+INFO - 2018-01-08 21:59:26 --> Utf8 Class Initialized
+INFO - 2018-01-08 21:59:26 --> URI Class Initialized
+INFO - 2018-01-08 21:59:26 --> Router Class Initialized
+INFO - 2018-01-08 21:59:26 --> Output Class Initialized
+INFO - 2018-01-08 21:59:26 --> Security Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-01-08 21:59:26 --> Input Class Initialized
+INFO - 2018-01-08 21:59:26 --> Language Class Initialized
+INFO - 2018-01-08 21:59:26 --> Loader Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/config.php
+INFO - 2018-01-08 21:59:26 --> Helper loaded: url_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: file_helper
+INFO - 2018-01-08 21:59:26 --> Helper loaded: cookie_helper
+INFO - 2018-01-08 21:59:26 --> Database Driver Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-01-08 21:59:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-01-08 21:59:26 --> Controller Class Initialized
+DEBUG - 2018-01-08 21:59:26 --> Config file loaded: F:\xampp\htdocs\ratings\application\config/rest.php
+INFO - 2018-01-08 21:59:26 --> Helper loaded: inflector_helper
+INFO - 2018-01-08 21:59:26 --> Language file loaded: language/english/rest_controller_lang.php
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Model Class Initialized
+INFO - 2018-01-08 21:59:26 --> Final output sent to browser
+DEBUG - 2018-01-08 21:59:26 --> Total execution time: 0.1636
