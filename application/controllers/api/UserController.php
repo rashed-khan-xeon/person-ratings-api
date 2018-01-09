@@ -61,8 +61,7 @@ class UserController extends Base_Api_Controller
         $this->isAuth();
         $userId = $this->get("userId");
         if (empty($userId) || is_null($userId) || $userId <= 0) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
-        }
+            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);        }
         $user = $this->user->get($userId);
         if ($user == null) {
             $this->response(null, REST_Controller::HTTP_NOT_FOUND);

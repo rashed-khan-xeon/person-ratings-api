@@ -23,22 +23,26 @@ class RatingsCategory extends Base_Api_Controller
         $this->isAuth();
         $ratingsCat = $this->request->body;
         if (is_null($ratingsCat)) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
-        $isExits = $this->ratingsCat->getByUserIdCatId($ratingsCat['userId'], $ratingsCat['catId']);
-        if ($isExits) {
-            $this->response("Already Selected !", REST_Controller::HTTP_CONFLICT);
-        }
-        $res = false;
-        if ($ratingsCat['ratingsCatId'] == 0) {
-            $res = $this->ratingsCat->insert($ratingsCat);
+        if (sizeof($ratingsCat) > 0) {
+            $res = false;
+
+            foreach ($ratingsCat as $rc) {
+                $isExits = $this->ratingsCat->getByUserIdCatId($rc['userId'], $rc['catId']);
+                if (!$isExits) {
+                    $res = $this->ratingsCat->insert($rc);
+                } else {
+                    $res = true;
+                }
+            }
+            if ($res) {
+                $this->response("Added", REST_Controller::HTTP_CREATED);
+            } else {
+                $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
+            }
         } else {
-            $res = $this->ratingsCat->update($ratingsCat);
-        }
-        if ($res) {
-            $this->response(null, REST_Controller::HTTP_CREATED);
-        } else {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
         }
     }
 

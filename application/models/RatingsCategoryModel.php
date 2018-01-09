@@ -21,17 +21,37 @@ class RatingsCategoryModel extends CI_Model
 
     function getByUserIdCatId($userId, $catId)
     {
-        $rq = $this->db->select("*")->from("ratings_category")->where("userId", $userId)->where("catId", $catId)->get()->row();
-        if (is_null($rq)) {
-            return false;
-        } else {
+        $rq = $this->db->select("*")->from("ratings_category")->where("userId", $userId)->where("catId", $catId)->where("active", 1)->get()->row();
+        if (sizeof($rq) > 0) {
             return true;
+        } else {
+            return false;
+        }
+    }
+
+    function inactiveRatingsCat($rtCatId)
+    {
+        $rq = $this->db->set("active", 0)->where("ratingsCatId", $rtCatId)->update("ratings_category");
+        if ($rq) {
+            return true;
+        } else {
+            return false;
         }
     }
 
     function getByUserId($userId)
     {
-        $rq = $this->db->select("*")->from("ratings_category")->where("userId", $userId)->get()->result();
+        $rq = $this->db->select("*")->from("ratings_category")->where("userId", $userId)->where("active", 1)->get()->result();
+        if (is_null($rq)) {
+            return false;
+        } else {
+            return $rq;
+        }
+    }
+
+    function getInActiveRtCatByUserId($userId)
+    {
+        $rq = $this->db->select("*")->from("ratings_category")->where("userId", $userId)->where("active", 0)->get()->result();
         if (is_null($rq)) {
             return false;
         } else {

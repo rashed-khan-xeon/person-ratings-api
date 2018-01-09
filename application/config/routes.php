@@ -75,7 +75,6 @@ $route['api/v1/user-reviews'] = 'api/UserReviewController/getAllUserReview';
 $route['api/v1/user-reviews-by-user-id'] = 'api/UserReviewController/getUserReviewByUserId';
 $route['api/v1/add-or-update-user-review'] = 'api/UserReviewController/addOrUpdateUserReview';
 $route['api/v1/add-or-update-category'] = 'api/CategoryController/addOrUpdateCategory';
-$route['api/v1/add-or-update-category'] = 'api/CategoryController/addOrUpdateCategory';
 $route['api/v1/category'] = 'api/CategoryController/getCategory';
 $route['api/v1/categories'] = 'api/CategoryController/getAllCategory';
 $route['api/v1/categories-by-user-type-id'] = 'api/CategoryController/getCategoriesByUserTypeId';
