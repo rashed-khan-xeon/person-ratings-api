@@ -95,6 +95,33 @@ class UserModel extends CI_Model
 
     }
 
+    function insertUserSettings($data)
+    {
+        $res = $this->db->insert("user_setting", $data);
+        if ($res) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function updateUserSettings($data)
+    {
+        $res = $this->db->where("userId", $data['userId'])->update("user_setting", $data);
+        if ($res) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    function checkUserSetting($userId)
+    {
+        $row = $this->db->select("*")->from("user_setting")->where("userId", $userId)->get()->row();
+        return $row;
+    }
+
     function searchUser($keyWord)
     {
         $datas = $this->db->select("*")->from("user")

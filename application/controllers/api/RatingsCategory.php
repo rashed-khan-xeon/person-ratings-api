@@ -25,25 +25,26 @@ class RatingsCategory extends Base_Api_Controller
         if (is_null($ratingsCat)) {
             $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
-        if (sizeof($ratingsCat) > 0) {
-            $res = false;
-
-            foreach ($ratingsCat as $rc) {
-                $isExits = $this->ratingsCat->getByUserIdCatId($rc['userId'], $rc['catId']);
-                if (!$isExits) {
-                    $res = $this->ratingsCat->insert($rc);
-                } else {
-                    $res = true;
-                }
-            }
-            if ($res) {
-                $this->response("Added", REST_Controller::HTTP_CREATED);
+        $res = false;
+        $isExits = $this->ratingsCat->getByUserIdCatId($ratingsCat['userId'], $ratingsCat['catId']);
+        if (!$isExits) {
+            $res = $this->ratingsCat->insert($ratingsCat);
+        } else {
+           // $this->response($isExits, REST_Controller::HTTP_CREATED);
+            if ($isExits->active == 0) {
+                $res = true;
+                $this->ratingsCat->activeRatingsCat($isExits->ratingsCatId);
             } else {
-                $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
+                $this->ratingsCat->inActiveRatingsCat($isExits->ratingsCatId);
+                $res = true;
             }
+        }
+        if ($res) {
+            $this->response("Added", REST_Controller::HTTP_CREATED);
         } else {
             $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
         }
+
     }
 
     public function getUserRatingsCategory_get()
@@ -53,7 +54,7 @@ class RatingsCategory extends Base_Api_Controller
         if (is_null($id) or $id == 0) {
             $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
         }
-        $ratingsCategory = $this->ratingsCat->getByUserId($id);
+        $ratingsCategory = $this->ratingsCat->getActiveRtCatByUserId($id);
         if (!empty($ratingsCategory)) {
             foreach ($ratingsCategory as $rtcat) {
                 $cat = $this->category->get($rtcat->catId);

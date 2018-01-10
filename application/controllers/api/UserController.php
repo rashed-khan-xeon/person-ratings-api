@@ -42,6 +42,22 @@ class UserController extends Base_Api_Controller
 
     public function addUserSettings_post()
     {
+        $body = $this->request->body;
+        if (empty($body) or is_null($body)) {
+            $this->response("Invalid request !", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $exist = $this->user->checkUserSetting($body['userId']);
+        $res = false;
+        if ($exist) {
+            $res = $this->user->updateUserSettings($body);
+        } else {
+            $res = $this->user->insertUserSettings($body);
+        }
+        if ($res) {
+            $this->response($body, REST_Controller::HTTP_CREATED);
+        } else {
+            $this->response("Failed ", REST_Controller::HTTP_BAD_REQUEST);
+        }
 
     }
 
@@ -61,7 +77,8 @@ class UserController extends Base_Api_Controller
         $this->isAuth();
         $userId = $this->get("userId");
         if (empty($userId) || is_null($userId) || $userId <= 0) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);        }
+            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+        }
         $user = $this->user->get($userId);
         if ($user == null) {
             $this->response(null, REST_Controller::HTTP_NOT_FOUND);
