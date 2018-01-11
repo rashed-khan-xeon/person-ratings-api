@@ -30,7 +30,7 @@ class RatingsCategory extends Base_Api_Controller
         if (!$isExits) {
             $res = $this->ratingsCat->insert($ratingsCat);
         } else {
-           // $this->response($isExits, REST_Controller::HTTP_CREATED);
+
             if ($isExits->active == 0) {
                 $res = true;
                 $this->ratingsCat->activeRatingsCat($isExits->ratingsCatId);

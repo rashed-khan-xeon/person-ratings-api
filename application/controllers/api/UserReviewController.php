@@ -70,10 +70,6 @@ class UserReviewController extends Base_Api_Controller
     public function getAllUserReview_get()
     {
         $this->isAuth();
-        $userReviewId = $this->get("userReviewId");
-        if (is_null($userReviewId) or $userReviewId == 0) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
-        }
         $userReviews = $this->review->getAll();
         if (!is_null($userReviews)) {
             foreach ($userReviews as $userReview) {
@@ -103,13 +99,13 @@ class UserReviewController extends Base_Api_Controller
         $this->isAuth();
         $userId = $this->get("userId");
         if (is_null($userId) or $userId == 0) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
         $userReviews = $this->review->getAllByUserId($userId);
         if (!is_null($userReviews)) {
             foreach ($userReviews as $userReview) {
                 $user = $this->user->get($userReview->userId);
-                $ratedByUser = $this->user->get($userReview->ratedByUserId);
+                $ratedByUser = $this->user->get($userReview->reviewedByUserId);
                 if (!is_null($user)) {
                     $userReview->user = $user;
                 } else {
@@ -123,7 +119,7 @@ class UserReviewController extends Base_Api_Controller
             }
         }
         if (is_null($userReviews)) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
         } else {
             $this->response($userReviews, REST_Controller::HTTP_OK);
         }

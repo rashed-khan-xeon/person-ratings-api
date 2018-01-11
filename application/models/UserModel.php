@@ -86,7 +86,7 @@ class UserModel extends CI_Model
 
     function update($data)
     {
-        $res = $this->db->where("userId", $data->userId)->update("user", $data);
+        $res = $this->db->where("userId", $data['userId'])->update("user", $data);
         if ($res) {
             return true;
         } else {

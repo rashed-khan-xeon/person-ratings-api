@@ -25,14 +25,25 @@ class UserController extends Base_Api_Controller
         if (is_null($user)) {
             $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
         } else {
+
             $res = false;
-            if ($user->userId == 0) {
+            if (array_key_exists("userType", $user)) {
+                unset($user['userType']);
+            }
+           if (array_key_exists("userSetting", $user)) {
+                unset($user['userSetting']);
+           }
+            if (array_key_exists("userRole", $user)) {
+                unset($user['userRole']);
+            }
+            if ($user['userId'] == 0) {
                 $res = $this->user->insert($user);
             } else {
                 $res = $this->user->update($user);
             }
             if ($res) {
-                $this->response("Created", REST_Controller::HTTP_CREATED);
+                $updatedUser = $this->user->get($user['userId']);
+                $this->response($updatedUser, REST_Controller::HTTP_CREATED);
             } else {
                 $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
             }
