@@ -274,7 +274,7 @@
       <DataType>datetime|0</DataType>
     </column>
     <column id="114" parent="73" name="reviewDate">
-      <Position>8</Position>
+      <Position>7</Position>
       <DataType>datetime|0</DataType>
     </column>
     <column id="115" parent="73" name="createDt">
