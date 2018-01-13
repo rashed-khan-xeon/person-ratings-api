@@ -98,10 +98,12 @@ class UserReviewController extends Base_Api_Controller
     {
         $this->isAuth();
         $userId = $this->get("userId");
+        $skip = $this->get("skip");
+        $top = $this->get("top");
         if (is_null($userId) or $userId == 0) {
             $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
-        $userReviews = $this->review->getAllByUserId($userId);
+        $userReviews = $this->review->getAllByUserId($userId, $skip, $top);
         if (!is_null($userReviews)) {
             foreach ($userReviews as $userReview) {
                 $user = $this->user->get($userReview->userId);

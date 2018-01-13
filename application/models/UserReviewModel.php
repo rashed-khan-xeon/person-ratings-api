@@ -53,9 +53,9 @@ class UserReviewModel extends CI_Model
         return null;
     }
 
-    public function getAllByUserId($userId)
+    public function getAllByUserId($userId, $skip, $top)
     {
-        $reviews = $this->db->select("*")->from("user_review")->where("userId", $userId)->get()->result();
+        $reviews = $this->db->select("*")->from("user_review")->where("userId", $userId)->order_by("reviewDate", "DESC")->limit($skip, $top)->get()->result();
         if (!is_null($reviews)) {
             return $reviews;
         }

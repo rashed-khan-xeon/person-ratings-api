@@ -29,9 +29,9 @@ class UserRatingModel extends CI_Model
         }
     }
 
-    function getUserAllRatingsByUserId($userId)
+    function getUserAllRatingsByUserId($userId, $skip, $top)
     {
-        $rq = $this->db->select("*")->from("user_ratings")->where("userId", $userId)->get()->result();
+        $rq = $this->db->select("*")->from("user_ratings")->where("userId", $userId)->order_by("ratingsDate", "DESC")->Limit($top, $skip)->get()->result();
         if (is_null($rq)) {
             return false;
         } else {

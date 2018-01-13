@@ -50,16 +50,21 @@ class UserRatingsController extends Base_Api_Controller
     {
         $this->isAuth();
         $id = $this->get("userId");
+        $skip = $this->get("skip");
+        $top = $this->get("top");
         if ($id == 0 or is_null($id)) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
-        $userRatings = $this->userRatings->getUserAllRatingsByUserId($id);
+
+        $userRatings = $this->userRatings->getUserAllRatingsByUserId($id, $skip, $top);
+
         if ($userRatings) {
             foreach ($userRatings as $ur) {
                 $user = $this->user->get($ur->userId);
                 $ratedUser = $this->user->get($ur->ratedByUserId);
                 $ratingsCategory = $this->ratingsCat->get($ur->ratingsCatId);
                 $rtCat = $this->category->get($ratingsCategory->catId);
+
                 if ($user) {
                     $ur->user = $user;
                 }
@@ -72,11 +77,12 @@ class UserRatingsController extends Base_Api_Controller
                     }
                     $ur->ratingsCategory = $ratingsCategory;
                 }
+
             }
 
             $this->response($userRatings, REST_Controller::HTTP_OK);
         } else {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
         }
     }
 
@@ -85,13 +91,13 @@ class UserRatingsController extends Base_Api_Controller
         $this->isAuth();
         $id = $this->get("userId");
         if ($id == 0 or is_null($id)) {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
         $userRatings = $this->userRatings->getUserRatingsSummaryByUserId($id);
         if ($userRatings) {
             $this->response($userRatings, REST_Controller::HTTP_OK);
         } else {
-            $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
+            $this->response("Invalid Request", REST_Controller::HTTP_NOT_FOUND);
         }
     }
 
