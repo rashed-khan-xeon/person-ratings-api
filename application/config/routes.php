@@ -65,6 +65,7 @@ $route['api/v1/users'] = 'api/UserController/users';
 $route['api/v1/user-details'] = 'api/UserController/userDetails';
 $route['api/v1/search-users'] = 'api/UserController/searchUser';
 $route['api/v1/user-add-or-update'] = 'api/UserController/addOrUpdateUsers';
+$route['api/v1/user-upload-image'] = 'api/UserController/uploadUserImage';
 $route['api/v1/user-settings-update'] = 'api/UserController/addUserSettings';
 $route['api/v1/user-all-ratings'] = 'api/UserRatingsController/getUserAllRatings';
 $route['api/v1/user-average-ratings-by-cat'] = 'api/UserRatingsController/getUserRatingsSummaryByCat';

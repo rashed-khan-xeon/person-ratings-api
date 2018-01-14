@@ -30,9 +30,9 @@ class UserController extends Base_Api_Controller
             if (array_key_exists("userType", $user)) {
                 unset($user['userType']);
             }
-           if (array_key_exists("userSetting", $user)) {
+            if (array_key_exists("userSetting", $user)) {
                 unset($user['userSetting']);
-           }
+            }
             if (array_key_exists("userRole", $user)) {
                 unset($user['userRole']);
             }
@@ -120,6 +120,15 @@ class UserController extends Base_Api_Controller
             }
 
         }
+    }
+
+    public function uploadUserImage_post()
+    {
+        $imageEncodedSByteString = $this->post("userImageByteString");
+        $userId = $this->post("userId");
+        $imageByte = base64_decode($imageEncodedSByteString);
+        file_put_contents(APPPATH . 'image/' . $userId, $imageByte);
+
     }
 
 }
