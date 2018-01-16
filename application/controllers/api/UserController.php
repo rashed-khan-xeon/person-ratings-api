@@ -124,11 +124,19 @@ class UserController extends Base_Api_Controller
 
     public function uploadUserImage_post()
     {
-        $imageEncodedSByteString = $this->post("userImageByteString");
-        $userId = $this->post("userId");
+        $body = $this->request->body;
+        $imageEncodedSByteString = $body['userImageByteString'];
+        $userId = $body['userId'];
         $imageByte = base64_decode($imageEncodedSByteString);
-        file_put_contents(APPPATH . 'image/' . $userId, $imageByte);
+        $put = file_put_contents(APPPATH . '../image/' . $userId . ".png", $imageByte);
+        if ($put) {
+            $this->db->set("image", $userId . ".png")->where("userId", $userId)->update("user");
+            $this->response("Uploaded", REST_Controller::HTTP_OK);
+        } else {
+            $this->response("", REST_Controller::HTTP_BAD_REQUEST);
+        }
 
     }
+
 
 }
