@@ -30,22 +30,20 @@ class LoginController extends Base_Api_Controller
     public function authorization_post()
     {
         $data = $this->request->body;
+
         try {
-            $isLogin = $this->login->checkLoginInfo($data['email'], md5($data['password']));
             if ((!isset($data['email'])) || (!isset($data['password']))) {
-                $this->response([
-                    'status' => FALSE,
-                    'message' => 'Invalid username or password'
-                ], REST_Controller::HTTP_BAD_REQUEST);
+                $this->response('Invalid username or password', REST_Controller::HTTP_BAD_REQUEST);
             }
+            $isLogin = $this->login->checkLoginInfo($data['email'], md5($data['password']));
+
             if ($isLogin) {
+
                 set_cookie("loginData", $isLogin->userId, 3600, COOKIE_DOMAIN, "/", null, false, true);
                 $this->response($isLogin, REST_Controller::HTTP_OK);
             } else {
-                $this->response([
-                    'status' => FALSE,
-                    'message' => 'Incorrect Username or Password'
-                ], REST_Controller::HTTP_NOT_FOUND);
+
+                $this->response('Incorrect Username or Password', REST_Controller::HTTP_NOT_FOUND);
             }
 
         } catch (Exception $e) {

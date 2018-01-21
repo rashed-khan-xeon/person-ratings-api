@@ -10,9 +10,10 @@ class LoginModel extends CI_Model
 {
     public function checkLoginInfo($userEmail, $password)
     {
-        $query = $this->db->select("*")->from("user")->where("email", trim($userEmail))->where("password", $password);
+        $query = $this->db->select("*")->from("user")->where("email", $userEmail)->where("password", $password);
         $res = $query->get();
         $data = $res->row();
+
         if ($data) {
             unset($data->password);
             $userRole = $this->db->select("*")->from("user_role")->where("userId", $data->userId)->get()->row();
