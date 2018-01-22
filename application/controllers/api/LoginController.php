@@ -20,6 +20,7 @@ class LoginController extends Base_Api_Controller
     {
         parent::__construct($config);
         $this->load->model("LoginModel", "login");
+        $this->load->model("UserModel", "user");
     }
 
     public function index_get()
@@ -61,7 +62,8 @@ class LoginController extends Base_Api_Controller
             }
             $rs = $this->login->signUp($body);
             if ($rs) {
-                $this->response("Success", REST_Controller::HTTP_CREATED);
+                $user = $this->user->get($rs);
+                $this->response($user, REST_Controller::HTTP_CREATED);
             } else {
                 $this->response("Failed to create", REST_Controller::HTTP_BAD_REQUEST);
             }

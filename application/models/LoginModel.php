@@ -10,7 +10,7 @@ class LoginModel extends CI_Model
 {
     public function checkLoginInfo($userEmail, $password)
     {
-        $query = $this->db->select("*")->from("user")->where("email", $userEmail)->where("password", $password);
+        $query = $this->db->select("*")->from("user")->where("email", $userEmail)->where("password", $password)->where("active", 1);
         $res = $query->get();
         $data = $res->row();
 
@@ -42,9 +42,9 @@ class LoginModel extends CI_Model
     {
         $res = $this->db->insert("user", $data);
         if ($res) {
-            return true;
+            return $this->db->insert_id();
         } else {
-            return false;
+            return 0;
         }
     }
 

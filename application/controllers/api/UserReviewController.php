@@ -13,8 +13,10 @@ class UserReviewController extends Base_Api_Controller
     public function __construct($config = 'rest')
     {
         parent::__construct($config);
+        $this->load->model("RatingsCategoryModel", "ratingsCat");
         $this->load->model('UserReviewModel', "review");
         $this->load->model('UserModel', "user");
+        $this->load->model("CategoryModel", "category");
     }
 
     public function addOrUpdateUserReview_post()
@@ -108,6 +110,14 @@ class UserReviewController extends Base_Api_Controller
             foreach ($userReviews as $userReview) {
                 $user = $this->user->get($userReview->userId);
                 $ratedByUser = $this->user->get($userReview->reviewedByUserId);
+                $ratingsCategory = $this->ratingsCat->get($userReview->ratingsCatId);
+                $rtCat = $this->category->get($ratingsCategory->catId);
+                if ($ratingsCategory) {
+                    if ($rtCat) {
+                        $ratingsCategory->category = $rtCat;
+                    }
+                    $userReview->ratingsCategory = $ratingsCategory;
+                }
                 if (!is_null($user)) {
                     $userReview->user = $user;
                 } else {
