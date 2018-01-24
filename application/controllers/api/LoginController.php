@@ -72,4 +72,24 @@ class LoginController extends Base_Api_Controller
         }
     }
 
+    public function changePassword_post()
+    {
+        $body = $this->request->body;
+        if ($body != null) {
+            $isValid = $this->login->checkCurrentPassword(md5($body['currentPassword']), $body['userId']);
+            if ($isValid) {
+                $update = $this->login->updatePassword($body['newPassword'], $body['userId']);
+                if ($update)
+                    $this->response("Password updated", REST_Controller::HTTP_CREATED);
+                else
+                    $this->response("Bad request", REST_Controller::HTTP_BAD_REQUEST);
+            } else {
+                $this->response("Current password is invalid", REST_Controller::HTTP_BAD_REQUEST);
+            }
+
+        } else {
+            $this->response("Bad Request", REST_Controller::HTTP_BAD_REQUEST);
+        }
+    }
+
 }

@@ -48,4 +48,26 @@ class LoginModel extends CI_Model
         }
     }
 
+    public function checkCurrentPassword($currentPassword, $userId)
+    {
+        $res = $this->db->select("password")->from("user")->where("userId", $userId)->get()->row();
+        if ($res) {
+            if ($res->password == $currentPassword) {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+    public function updatePassword($data,$userId)
+    {
+        $pass=md5($data);
+        $res = $this->db->set("password",$pass)->where('userId', $userId)->update("user");
+        if ($res) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

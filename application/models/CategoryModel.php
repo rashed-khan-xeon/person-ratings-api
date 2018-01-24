@@ -38,11 +38,22 @@ class CategoryModel extends CI_Model
         }
     }
 
+    public function getAllByUserId($userId)
+    {
+        $res = $this->db->select("*")->from('category')->where("userId", $userId)->get()->result();
+        if ($res) {
+            return $res;
+        } else {
+            return false;
+        }
+    }
+
     public function insert($data)
     {
         $in = $this->db->insert('category', $data);
         if ($in) {
-            return true;
+            $rs = $this->get($this->db->insert_id());
+            return $rs;
         } else {
             return false;
         }

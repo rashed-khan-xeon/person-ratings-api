@@ -25,15 +25,15 @@ class CategoryController extends Base_Api_Controller
             $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
         }
         $res = false;
-        if ($cat->catId == 0) {
+        if ($cat['catId'] == 0) {
             $res = $this->category->insert($cat);
         } else {
             $res = $this->category->update($cat);
         }
-        if ($res) {
+        if (!$res) {
             $this->response(null, REST_Controller::HTTP_BAD_REQUEST);
         } else {
-            $this->response("created", REST_Controller::HTTP_CREATED);
+            $this->response($res, REST_Controller::HTTP_CREATED);
         }
     }
 
@@ -76,11 +76,32 @@ class CategoryController extends Base_Api_Controller
     {
         $this->isAuth();
         $userTypeId = $this->get("userTypeId");
-      //  $this->response($userTypeId,REST_Controller::HTTP_OK);
+        //  $this->response($userTypeId,REST_Controller::HTTP_OK);
         if (empty($userTypeId) || is_null($userTypeId) || $userTypeId == 0) {
             $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
-        $categories = $this->category->getAll();
+        $categories = $this->category->getAllByTypeId($userTypeId);
+        foreach ($categories as $category) {
+            $type = $this->userType->get($category->catId);
+            $category->type = $type;
+        }
+
+        if ($categories == null) {
+            $this->response(null, REST_Controller::HTTP_NO_CONTENT);
+        } else {
+            $this->response($categories, REST_Controller::HTTP_OK);
+        }
+    }
+
+    public function getCategoriesByUserId_get()
+    {
+        $this->isAuth();
+        $userId = $this->get("userId");
+        //  $this->response($userTypeId,REST_Controller::HTTP_OK);
+        if (empty($userId) || is_null($userId) || $userId == 0) {
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $categories = $this->category->getAllByUserId($userId);
         foreach ($categories as $category) {
             $type = $this->userType->get($category->catId);
             $category->type = $type;

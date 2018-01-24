@@ -111,12 +111,14 @@ class UserReviewController extends Base_Api_Controller
                 $user = $this->user->get($userReview->userId);
                 $ratedByUser = $this->user->get($userReview->reviewedByUserId);
                 $ratingsCategory = $this->ratingsCat->get($userReview->ratingsCatId);
-                $rtCat = $this->category->get($ratingsCategory->catId);
                 if ($ratingsCategory) {
+                    $rtCat = $this->category->get($ratingsCategory->catId);
                     if ($rtCat) {
                         $ratingsCategory->category = $rtCat;
                     }
                     $userReview->ratingsCategory = $ratingsCategory;
+                } else {
+                    $userReview->ratingsCategory = null;
                 }
                 if (!is_null($user)) {
                     $userReview->user = $user;

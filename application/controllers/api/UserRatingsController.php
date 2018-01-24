@@ -63,7 +63,7 @@ class UserRatingsController extends Base_Api_Controller
                 $user = $this->user->get($ur->userId);
                 $ratedUser = $this->user->get($ur->ratedByUserId);
                 $ratingsCategory = $this->ratingsCat->get($ur->ratingsCatId);
-                $rtCat = $this->category->get($ratingsCategory->catId);
+
 
                 if ($user) {
                     $ur->user = $user;
@@ -72,10 +72,14 @@ class UserRatingsController extends Base_Api_Controller
                     $ur->ratedByUser = $ratedUser;
                 }
                 if ($ratingsCategory) {
+                    $ur->ratingsCategory = $ratingsCategory;
+                    $rtCat = $this->category->get($ratingsCategory->catId);
                     if ($rtCat) {
                         $ratingsCategory->category = $rtCat;
                     }
-                    $ur->ratingsCategory = $ratingsCategory;
+                } else {
+
+                    $ur->ratingsCategory = null;
                 }
 
             }

@@ -60,6 +60,7 @@ $route['translate_uri_dashes'] = FALSE;
 */
 //For version- v1
 $route['api/v1/user-signup'] = 'api/LoginController/accountCreate';
+$route['api/v1/change-password'] = 'api/LoginController/changePassword';
 $route['api/v1/user-login'] = 'api/LoginController/authorization';
 $route['api/v1/users'] = 'api/UserController/users';
 $route['api/v1/user-details'] = 'api/UserController/userDetails';
@@ -80,6 +81,7 @@ $route['api/v1/add-or-update-category'] = 'api/CategoryController/addOrUpdateCat
 $route['api/v1/category'] = 'api/CategoryController/getCategory';
 $route['api/v1/categories'] = 'api/CategoryController/getAllCategory';
 $route['api/v1/categories-by-user-type-id'] = 'api/CategoryController/getCategoriesByUserTypeId';
+$route['api/v1/categories-by-user-id'] = 'api/CategoryController/getCategoriesByUserId';
 $route['api/v1/add-or-update-user-type'] = 'api/UserTypeController/addOrUpdateUserType';
 $route['api/v1/user-type'] = 'api/UserTypeController/getUserType';
 $route['api/v1/user-types'] = 'api/UserTypeController/getAllUserType';
