@@ -92,4 +92,52 @@ class LoginController extends Base_Api_Controller
         }
     }
 
+    public function sendCode_get()
+    {
+        $userId = $this->get("userId");
+        if ($userId == null || $userId == 0) {
+            $this->response("Invalid Request !", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $data["userId"] = $userId;
+        $data['code'] = $this->getRandomCode();
+        $startTime = date("Y-m-d H:i:s");
+        $convertedTime = date('Y-m-d H:i:s', strtotime('+30 minutes', strtotime($startTime)));
+        $data['startTime'] = $startTime;
+        $data['endTime'] = $convertedTime;
+        $insert = $this->login->addUserVerificationCode($data);
+        // $rs = $this->send();
+        if (!$insert) {
+            $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
+        } else {
+            $this->response("Success", REST_Controller::HTTP_CREATED);
+        }
+
+    }
+
+    private function send()
+    {
+
+    }
+
+    private function getRandomCode()
+    {
+        $randomString = mt_rand(100000, 999999);
+        return $randomString;
+    }
+
+    public function checkCode_post()
+    {
+        $body = $this->request->body;
+        if ($body == null) {
+            $this->response("Bad Request !", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $userId = $body['userId'];
+        $code = $body['code'];
+        $result = $this->login->checkVerificationCode($userId, $code);
+        if ($result == false) {
+            $this->response("Verification Failed", REST_Controller::HTTP_NOT_FOUND);
+        } else {
+            $this->response($result, REST_Controller::HTTP_OK);
+        }
+    }
 }

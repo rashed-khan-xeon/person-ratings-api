@@ -60,14 +60,36 @@ class LoginModel extends CI_Model
 
     }
 
-    public function updatePassword($data,$userId)
+    public function updatePassword($data, $userId)
     {
-        $pass=md5($data);
-        $res = $this->db->set("password",$pass)->where('userId', $userId)->update("user");
+        $pass = md5($data);
+        $res = $this->db->set("password", $pass)->where('userId', $userId)->update("user");
         if ($res) {
             return true;
-        } else {
-            return false;
         }
+        return false;
+
+    }
+
+    public function addUserVerificationCode($data)
+    {
+        $insert = $this->db->insert("verify", $data);
+        if ($insert) {
+            return true;
+        }
+        return false;
+    }
+
+    public function checkVerificationCode($userId, $code)
+    {
+        $date = date("Y-m-d H:i:s");
+        $qr = "select * from verify WHERE userId={$userId}  and code= {$code} and endTime > '{$date}' ";
+        //$this->db->select("*")->from("verify")->where("userId", $userId)->where("code", $code)->get()->row();
+        $verification = $this->db->query($qr)->row();
+        if (!empty($verification)) {
+            $this->db->set("hasVerified", 1)->where("userId", $userId)->update("user");
+            return true;
+        }
+        return false;
     }
 }
