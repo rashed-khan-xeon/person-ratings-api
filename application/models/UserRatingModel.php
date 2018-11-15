@@ -46,10 +46,10 @@ class UserRatingModel extends CI_Model
             ->select_avg("ratings", "ratingsSummary")
             ->select("c.name as category,COUNT(ratings) as count")
             ->from("user_ratings ur")
-            ->join("ratings_category rc", "ur.ratingsCatId=rc.ratingsCatId", "left")
+            ->join("ratings_category rc", "ur.ratingsCatId=rc.ratingsCatId", "right")
             ->join("category c", "rc.catId=c.catId", "left")
-            ->where("ur.userId", $userId)
-            ->group_by("c.catId")
+            ->where("rc.userId", $userId)
+            ->group_by("rc.ratingsCatId")
             ->get()->result();
         if (is_null($rq)) {
             return false;

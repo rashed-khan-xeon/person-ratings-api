@@ -104,19 +104,42 @@ class LoginController extends Base_Api_Controller
         $convertedTime = date('Y-m-d H:i:s', strtotime('+30 minutes', strtotime($startTime)));
         $data['startTime'] = $startTime;
         $data['endTime'] = $convertedTime;
+        $this->login->expirePreviousCode($userId);
         $insert = $this->login->addUserVerificationCode($data);
-        // $rs = $this->send();
+        $user = $this->user->get($userId);
+
         if (!$insert) {
             $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
         } else {
+           $sent = $this->send($data['code'], $user->phoneNumber);
+           if (!$sent) {
+               $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
+            }
             $this->response("Success", REST_Controller::HTTP_CREATED);
         }
 
     }
 
-    private function send()
+    private function send($code, $to)
     {
+        $to = "$to";
+        $token = "edfa6ec4bb54fb0d201771fa229ca3b8";
+        $message = "Ratings Verification Code is : " . $code;
 
+        $url = "http://sms.greenweb.com.bd/api.php";
+
+
+        $data = array(
+            'to' => "$to",
+            'message' => "$message",
+            'token' => "$token"
+        ); // Add parameters in key value
+        $ch = curl_init(); // Initialize cURL
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $smsresult = curl_exec($ch);
+        return $smsresult;
     }
 
     private function getRandomCode()

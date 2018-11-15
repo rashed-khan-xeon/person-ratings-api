@@ -10,7 +10,7 @@ class LoginModel extends CI_Model
 {
     public function checkLoginInfo($userEmail, $password)
     {
-        $query = $this->db->select("*")->from("user")->where("email", $userEmail)->where("password", $password)->where("active", 1);
+        $query = $this->db->select("*")->from("user")->where("email", $userEmail)->where("password", $password);
         $res = $query->get();
         $data = $res->row();
 
@@ -83,7 +83,7 @@ class LoginModel extends CI_Model
     public function checkVerificationCode($userId, $code)
     {
         $date = date("Y-m-d H:i:s");
-        $qr = "select * from verify WHERE userId={$userId}  and code= {$code} and endTime > '{$date}' ";
+        $qr = "select * from verify WHERE userId={$userId}  and code= {$code} and endTime > '{$date}' and expired=0";
         //$this->db->select("*")->from("verify")->where("userId", $userId)->where("code", $code)->get()->row();
         $verification = $this->db->query($qr)->row();
         if (!empty($verification)) {
@@ -91,5 +91,10 @@ class LoginModel extends CI_Model
             return true;
         }
         return false;
+    }
+
+    public function expirePreviousCode($userId)
+    {
+        $this->db->set("expired", 1)->where("userId", $userId)->update("verify");
     }
 }

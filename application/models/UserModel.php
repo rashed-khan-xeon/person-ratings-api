@@ -124,11 +124,13 @@ class UserModel extends CI_Model
 
     function searchUser($keyWord)
     {
-        $datas = $this->db->select("*")->from("user")
-            ->like("fullName", $keyWord)
-            ->or_like("email", $keyWord, "before")
-            ->or_like("phoneNumber", $keyWord)
-            ->get()->result();
+        $qr = "SELECT * from user WHERE fullName LIKE '%{$keyWord}%' or email LIKE '%{$keyWord}%' or phoneNumber LIKE '%{$keyWord}%' AND active=1 AND hasVerified=1";
+        $datas = $this->db->query($qr)->result();
+//        $datas = $this->db->select("*")->from("user")
+//            ->like("fullName", $keyWord)
+//            ->or_like("email", $keyWord, "before")
+//            ->or_like("phoneNumber", $keyWord)
+//            ->get()->result();
 
         if (isset($datas)) {
             foreach ($datas as $data) {

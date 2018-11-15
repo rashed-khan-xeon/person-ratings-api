@@ -40,7 +40,7 @@ class CategoryModel extends CI_Model
 
     public function getAllByUserId($userId)
     {
-        $res = $this->db->select("*")->from('category')->where("userId", $userId)->get()->result();
+        $res = $this->db->select("*")->from('category')->where("userId", $userId)->where("active",1)->or_where("isDefault", 1)->get()->result();
         if ($res) {
             return $res;
         } else {

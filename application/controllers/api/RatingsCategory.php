@@ -40,7 +40,7 @@ class RatingsCategory extends Base_Api_Controller
             }
         }
         if ($res) {
-            $this->response("Added", REST_Controller::HTTP_CREATED);
+            $this->response("Updated", REST_Controller::HTTP_CREATED);
         } else {
             $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
         }
