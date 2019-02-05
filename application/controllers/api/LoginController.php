@@ -111,13 +111,12 @@ class LoginController extends Base_Api_Controller
         if (!$insert) {
             $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
         } else {
-           $sent = $this->send($data['code'], $user->phoneNumber);
-           if (!$sent) {
-               $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
+            $sent = $this->send($data['code'], $user->phoneNumber);
+            if (!$sent) {
+                $this->response("Failed", REST_Controller::HTTP_BAD_REQUEST);
             }
             $this->response("Success", REST_Controller::HTTP_CREATED);
         }
-
     }
 
     private function send($code, $to)
