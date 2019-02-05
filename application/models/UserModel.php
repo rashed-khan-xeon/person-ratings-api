@@ -74,6 +74,39 @@ class UserModel extends CI_Model
 
     }
 
+    function getAllByFeatureId($featureId)
+    {
+        $datas = $this->db->select("*")->from("user")->where("featureId", $featureId)
+            ->get()->result();
+
+        if (isset($datas)) {
+            foreach ($datas as $data) {
+                unset($data->password);
+                $userRole = $this->db->select("*")->from("user_role")->where("userId", $data->createdUserId)->get()->row();
+                if (!empty($userRole)) {
+                    $role = $this->db->select("*")->from("role")->where("roleId", $userRole->roleId)->get()->row();
+                    if (!empty($role)) {
+                        $userRole->role = $role;
+                        $data->userRole = $userRole;
+                    }
+                }
+
+                $userType = $this->db->select("*")->from("user_type")->where("userTypeId", $data->userTypeId)->get()->row();
+                if (!empty($userType)) {
+                    $data->userType = $userType;
+                }
+                $userSetting = $this->db->select("*")->from("user_setting")->where("userId", $data->createdUserId)->get()->row();
+                if (!empty($userSetting)) {
+                    $data->userSetting = $userSetting;
+                }
+            }
+            return $datas;
+        } else {
+            return null;
+        }
+
+    }
+
     function insert($data)
     {
         $res = $this->db->insert("user", $data);

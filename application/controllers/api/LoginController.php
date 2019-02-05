@@ -55,7 +55,6 @@ class LoginController extends Base_Api_Controller
     public function accountCreate_post()
     {
         try {
-
             $body = $this->request->body;
             if (empty($body) or is_null($body)) {
                 $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
@@ -160,6 +159,35 @@ class LoginController extends Base_Api_Controller
             $this->response("Verification Failed", REST_Controller::HTTP_NOT_FOUND);
         } else {
             $this->response($result, REST_Controller::HTTP_OK);
+        }
+    }
+
+    public function createFeatureUser_post()
+    {
+        try {
+            $this->load->model("RatingsCategoryModel", "rCatModel");
+            $body = $this->request->body;
+            if (empty($body) or is_null($body)) {
+                $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
+            }
+            $category = $body['categoryId'];
+//            $featureId = $body['featureId'];
+//            $name = $body['name'];
+            unset($body['categoryId']);
+            $rs = $this->login->signUp($body);
+
+            if ($rs) {
+                foreach ($category as $cat) {
+                    $catData['catId'] = $cat;
+                    $catData['userId'] = $rs;
+                    $this->rCatModel->insert($catData);
+                }
+                $this->response("Success", REST_Controller::HTTP_CREATED);
+            } else {
+                $this->response("Failed to create", REST_Controller::HTTP_BAD_REQUEST);
+            }
+        } catch (Exception $e) {
+            log_message("sign-up", $e->getMessage());
         }
     }
 }

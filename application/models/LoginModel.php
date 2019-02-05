@@ -40,9 +40,16 @@ class LoginModel extends CI_Model
 
     public function signUp($data)
     {
+        $this->load->model("UserRoleModel", "uRoleModel");
+        $roleId = $data['roleId'];
+        unset($data['roleId']);
         $res = $this->db->insert("user", $data);
         if ($res) {
-            return $this->db->insert_id();
+            $userId = $this->db->insert_id();
+            $userRole['roleId'] = $roleId;
+            $userRole['userId'] = $userId;
+            $this->uRoleModel->insert($userRole);
+            return $userId;
         } else {
             return 0;
         }
