@@ -18,10 +18,51 @@ class FeatureModel extends CI_Model
         }
     }
 
+    function update($data)
+    {
+        $res = $this->db->where("featureId", $data['featureId'])->update("feature", $data);
+        if ($res) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function updateFeatureUser($data)
+    {
+        $res = $this->db->set("active", $data['active'])->where("userId", $data['userId'])->update("user");
+        if ($res) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
     function getAll($userId)
     {
         $this->load->model("UserModel", "userModel");
         $res = $this->db->select("*")->from("feature")->where("createdUserId", $userId)->get()->result();
+        foreach ($res as $data) {
+            $data->users = $this->userModel->getAllByFeatureId($data->featureId);
+        }
+        return $res;
+    }
+
+    function getAllActiveFeature($userId)
+    {
+        $this->load->model("UserModel", "userModel");
+        $res = $this->db->select("*")->from("feature")->where("createdUserId", $userId)->where("active", 1)->get()->result();
+        foreach ($res as $data) {
+            $data->users = $this->userModel->getAllByFeatureId($data->featureId);
+        }
+        return $res;
+    }
+
+    function getAllActiveFeatureForUser()
+    {
+        $this->load->model("UserModel", "userModel");
+        $res = $this->db->select("*")->from("feature")->where("active", 1)->get()->result();
         foreach ($res as $data) {
             $data->users = $this->userModel->getAllByFeatureId($data->featureId);
         }

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fe6394-f849-4294-8344-d277632edfc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/api/FeatureController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/FeatureModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/api/CategoryController.php" afterPath="$PROJECT_DIR$/application/controllers/api/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/api/FeatureController.php" afterPath="$PROJECT_DIR$/application/controllers/api/FeatureController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/api/LoginController.php" afterPath="$PROJECT_DIR$/application/controllers/api/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/api/UserController.php" afterPath="$PROJECT_DIR$/application/controllers/api/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/CategoryModel.php" afterPath="$PROJECT_DIR$/application/models/CategoryModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/LoginModel.php" afterPath="$PROJECT_DIR$/application/models/LoginModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/FeatureModel.php" afterPath="$PROJECT_DIR$/application/models/FeatureModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/UserModel.php" afterPath="$PROJECT_DIR$/application/models/UserModel.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +48,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="user_role" />
+        <option name="myItemId" value="user_review" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -64,49 +62,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="user" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ratings@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ratings_category" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ratings@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="feature" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ratings@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="category" />
+        <option name="myItemId" value="user_ratings" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -117,8 +73,8 @@
       <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/api/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="187" column="46" lean-forward="false" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
               <folding>
                 <element signature="n#changePassword_post#0;n#LoginController#0;n#!!top" expanded="false" />
               </folding>
@@ -126,21 +82,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log-2019-02-05.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/logs/log-2019-02-05.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="2893" column="76" lean-forward="false" selection-start-line="2893" selection-start-column="70" selection-end-line="2893" selection-end-column="76" />
+      <file leaf-file-name="ratings.user_setting" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_setting">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RatingsCategoryModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/RatingsCategoryModel.php">
+      <file leaf-file-name="FeatureController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/api/FeatureController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="710">
+              <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -149,85 +110,58 @@
       <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="86" column="65" lean-forward="false" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+            <state relative-caret-position="297">
+              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
               <folding>
-                <marker date="1549392438503" expanded="true" signature="4998:5037" ph="SELECT * fro... user" />
-                <marker date="1549392438503" expanded="true" signature="4998:5049" ph="SELECT * fro... user" />
-                <marker date="1549392438503" expanded="true" signature="4998:5054" ph="SELECT * fro... user" />
-                <marker date="1549392438503" expanded="true" signature="4998:5055" ph="SELECT * fro... user" />
-                <marker date="1549392438503" expanded="true" signature="4998:5115" ph="SELECT * fro... user" />
-                <marker date="1549392438503" expanded="true" signature="4998:5146" ph="SELECT * fro... user" />
+                <element signature="n#get#0;n#UserModel#0;n#!!top" expanded="false" />
+                <element signature="n#getAll#0;n#UserModel#0;n#!!top" expanded="false" />
+                <element signature="n#getAllActiveUserByFeatureId#0;n#UserModel#0;n#!!top" expanded="false" />
+                <marker date="1549551344726" expanded="true" signature="6300:6339" ph="SELECT * fro... user" />
+                <marker date="1549551344726" expanded="true" signature="6300:6351" ph="SELECT * fro... user" />
+                <marker date="1549551344726" expanded="true" signature="6300:6356" ph="SELECT * fro... user" />
+                <marker date="1549551344726" expanded="true" signature="6300:6357" ph="SELECT * fro... user" />
+                <marker date="1549551344726" expanded="true" signature="6300:6417" ph="SELECT * fro... user" />
+                <marker date="1549551344726" expanded="true" signature="6300:6448" ph="SELECT * fro... user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ratings.user" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user">
+      <file leaf-file-name="UserRatingsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/api/UserRatingsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ratings.user_ratings" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_ratings">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ratings.user_review" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_review">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ratings.feature" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.feature">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="81" column="70" lean-forward="true" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/api/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="83" column="69" lean-forward="true" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/CategoryModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/api/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/models/UserRole.php" />
-        <option value="$PROJECT_DIR$/application/models/UserRating.php" />
         <option value="$PROJECT_DIR$/application/models/RatingsCategory.php" />
         <option value="$PROJECT_DIR$/application/controllers/api/UserRatings.php" />
         <option value="$PROJECT_DIR$/application/models/UserRoleModel.php" />
@@ -290,13 +222,15 @@
         <option value="$PROJECT_DIR$/application/controllers/api/RatingsCategory.php" />
         <option value="$PROJECT_DIR$/application/models/UserRatingModel.php" />
         <option value="$PROJECT_DIR$/application/models/LoginModel.php" />
-        <option value="$PROJECT_DIR$/application/controllers/api/FeatureController.php" />
-        <option value="$PROJECT_DIR$/application/models/UserModel.php" />
         <option value="$PROJECT_DIR$/application/logs/log-2019-02-05.txt" />
-        <option value="$PROJECT_DIR$/application/models/FeatureModel.php" />
-        <option value="$PROJECT_DIR$/application/controllers/api/CategoryController.php" />
-        <option value="$PROJECT_DIR$/application/models/CategoryModel.php" />
         <option value="$PROJECT_DIR$/application/controllers/api/UserController.php" />
+        <option value="$PROJECT_DIR$/application/logs/log-2019-02-06.txt" />
+        <option value="$PROJECT_DIR$/application/models/UserModel.php" />
+        <option value="$PROJECT_DIR$/application/models/CategoryModel.php" />
+        <option value="$PROJECT_DIR$/application/controllers/api/CategoryController.php" />
+        <option value="$PROJECT_DIR$/application/logs/log-2019-02-07.txt" />
+        <option value="$PROJECT_DIR$/application/controllers/api/FeatureController.php" />
+        <option value="$PROJECT_DIR$/application/models/FeatureModel.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/controllers/api/LoginController.php" />
       </list>
@@ -333,6 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -356,42 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratings" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratings" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,10 +335,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ratings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ratings" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,18 +515,19 @@
       <workItem from="1541782611495" duration="604000" />
       <workItem from="1541878561647" duration="129000" />
       <workItem from="1543244131795" duration="3053000" />
-      <workItem from="1549380993041" duration="10874000" />
+      <workItem from="1549380993041" duration="11317000" />
+      <workItem from="1549478087973" duration="13217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288830000" />
+    <option name="totallyTimeSpent" value="302490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -642,22 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php" />
-    <entry file="dbDummy://dbtable:/cc11ce41/d90a126b-6894-489a-854d-deeed83913b8/ratings.user_review" />
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/logs/log-2018-01-21.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -747,14 +648,14 @@
     <entry file="dbDummy://dbtable:/cc11ce41/d90a126b-6894-489a-854d-deeed83913b8/ratings.user_type" />
     <entry file="dbDummy://dbtable:/cc11ce41/d90a126b-6894-489a-854d-deeed83913b8/ratings.user" />
     <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_type">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -793,30 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_ratings">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.ratings_category">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/api/RatingsCategory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -834,15 +711,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.verify">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -870,174 +746,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_role">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/api/UserRatingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.role">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/api/FeatureController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/LoginModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <marker date="1549381976782" expanded="true" signature="2759:2859" ph="select * fro... verify" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/FeatureModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.category">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/api/UserController.php">
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2019-02-05.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/api/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="83" column="69" lean-forward="true" selection-start-line="83" selection-start-column="69" selection-end-line="83" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/CategoryModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="54967">
+          <caret line="2893" column="76" lean-forward="false" selection-start-line="2893" selection-start-column="70" selection-end-line="2893" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/RatingsCategoryModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-1323">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/UserModel.php">
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2019-02-06.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="86" column="65" lean-forward="false" selection-start-line="86" selection-start-column="65" selection-end-line="86" selection-end-column="65" />
+        <state relative-caret-position="-9087">
+          <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/CategoryModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="60" column="57" lean-forward="true" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/api/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
           <folding>
-            <marker date="1549392438503" expanded="true" signature="4998:5037" ph="SELECT * fro... user" />
-            <marker date="1549392438503" expanded="true" signature="4998:5049" ph="SELECT * fro... user" />
-            <marker date="1549392438503" expanded="true" signature="4998:5054" ph="SELECT * fro... user" />
-            <marker date="1549392438503" expanded="true" signature="4998:5055" ph="SELECT * fro... user" />
-            <marker date="1549392438503" expanded="true" signature="4998:5115" ph="SELECT * fro... user" />
-            <marker date="1549392438503" expanded="true" signature="4998:5146" ph="SELECT * fro... user" />
+            <element signature="n#getAllCategory_get#0;n#CategoryController#0;n#!!top" expanded="false" />
+            <element signature="n#getCategoriesByUserTypeId_get#0;n#CategoryController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.feature">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/logs/log-2019-02-07.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="35" column="65" lean-forward="false" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/FeatureModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/api/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/LoginModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="43" />
+          <folding>
+            <element signature="n#checkLoginInfo#0;n#LoginModel#0;n#!!top" expanded="false" />
+            <marker date="1549381976782" expanded="true" signature="2759:2859" ph="select * fro... verify" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/api/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        <state relative-caret-position="558">
+          <caret line="187" column="46" lean-forward="false" selection-start-line="187" selection-start-column="46" selection-end-line="187" selection-end-column="46" />
           <folding>
             <element signature="n#changePassword_post#0;n#LoginController#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/logs/log-2019-02-05.txt">
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="2893" column="76" lean-forward="false" selection-start-line="2893" selection-start-column="70" selection-end-line="2893" selection-end-column="76" />
+        <state relative-caret-position="729">
+          <caret line="97" column="28" lean-forward="false" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/api/FeatureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_setting">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.ratings_category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.feature">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+    <entry file="file://$PROJECT_DIR$/application/models/UserModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="81" column="70" lean-forward="true" selection-start-line="81" selection-start-column="70" selection-end-line="81" selection-end-column="70" />
+        <state relative-caret-position="297">
+          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+          <folding>
+            <element signature="n#get#0;n#UserModel#0;n#!!top" expanded="false" />
+            <element signature="n#getAll#0;n#UserModel#0;n#!!top" expanded="false" />
+            <element signature="n#getAllActiveUserByFeatureId#0;n#UserModel#0;n#!!top" expanded="false" />
+            <marker date="1549551344726" expanded="true" signature="6300:6339" ph="SELECT * fro... user" />
+            <marker date="1549551344726" expanded="true" signature="6300:6351" ph="SELECT * fro... user" />
+            <marker date="1549551344726" expanded="true" signature="6300:6356" ph="SELECT * fro... user" />
+            <marker date="1549551344726" expanded="true" signature="6300:6357" ph="SELECT * fro... user" />
+            <marker date="1549551344726" expanded="true" signature="6300:6417" ph="SELECT * fro... user" />
+            <marker date="1549551344726" expanded="true" signature="6300:6448" ph="SELECT * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/api/UserRatingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_ratings">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/cc11ce41/a9fcd686-42ce-4b8d-9eee-6b4fb67200c0/ratings.user_review">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

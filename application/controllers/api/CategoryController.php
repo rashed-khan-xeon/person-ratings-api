@@ -77,7 +77,6 @@ class CategoryController extends Base_Api_Controller
         $this->isAuth();
 
         $userId = $this->get("userId");
-        //  $this->response($userTypeId,REST_Controller::HTTP_OK);
         if (empty($userId) || is_null($userId) || $userId == 0) {
             $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
         }
@@ -123,6 +122,21 @@ class CategoryController extends Base_Api_Controller
             $type = $this->userType->get($category->catId);
             $category->type = $type;
         }
+
+        if ($categories == null) {
+            $this->response(null, REST_Controller::HTTP_NO_CONTENT);
+        } else {
+            $this->response($categories, REST_Controller::HTTP_OK);
+        }
+    }
+    public function getAllCategoriesByUserId_get(){
+        $this->isAuth();
+        $userId = $this->get("userId");
+        //  $this->response($userTypeId,REST_Controller::HTTP_OK);
+        if (empty($userId) || is_null($userId) || $userId == 0) {
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $categories = $this->category->getAllActiveInactiveByUserId($userId);
 
         if ($categories == null) {
             $this->response(null, REST_Controller::HTTP_NO_CONTENT);
