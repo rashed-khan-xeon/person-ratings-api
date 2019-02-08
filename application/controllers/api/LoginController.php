@@ -181,14 +181,15 @@ class LoginController extends Base_Api_Controller
                     $catData['catId'] = $cat;
                     $catData['userId'] = $rs;
                     $this->rCatModel->insert($catData);
-                    $setting['userId'] = $rs;
-                    $setting['emailVisible'] = 1;
-                    $setting['phoneNumberVisible'] = 1;
-                    $setting['addressVisible'] = 1;
-                    $setting['hasRating'] = 1;
-                    $setting['hasReview'] = 1;
-                    $this->user->insertUserSettingsv($setting);
                 }
+                $setting['userId'] = $rs;
+                $setting['emailVisible'] = 1;
+                $setting['phoneNumberVisible'] = 1;
+                $setting['imageVisible'] = 0;
+                $setting['addressVisible'] = 1;
+                $setting['hasRating'] = 1;
+                $setting['hasReview'] = 1;
+                $this->user->insertUserSettings($setting);
                 $this->response("Success", REST_Controller::HTTP_CREATED);
             } else {
                 $this->response("Failed to create", REST_Controller::HTTP_BAD_REQUEST);

@@ -55,7 +55,7 @@ class FeatureController extends Base_Api_Controller
         if ($featureList) {
             $this->response($featureList, REST_Controller::HTTP_OK);
         } else {
-            $this->response("Invalid Request", REST_Controller::HTTP_NOT_FOUND);
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
         }
     }
 
@@ -84,7 +84,7 @@ class FeatureController extends Base_Api_Controller
         if ($featureList) {
             $this->response($featureList, REST_Controller::HTTP_OK);
         } else {
-            $this->response("Invalid Request", REST_Controller::HTTP_NOT_FOUND);
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
         }
     }
 
@@ -99,7 +99,7 @@ class FeatureController extends Base_Api_Controller
         if ($featureList) {
             $this->response($featureList, REST_Controller::HTTP_OK);
         } else {
-            $this->response("Invalid Request", REST_Controller::HTTP_NOT_FOUND);
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
         }
     }
 
