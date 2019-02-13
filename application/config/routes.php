@@ -96,3 +96,9 @@ $route['api/v1/update-feature-user'] = 'api/FeatureController/updateFeatureUser'
 $route['api/v1/create-feature-user'] = 'api/LoginController/createFeatureUser';
 $route['api/v1/all-featurelist-for-user'] = 'api/FeatureController/getAllActiveFeatureListForUser';
 $route['api/v1/get-users-by-featureId'] = 'api/FeatureController/getFeatureWiseAssignList';
+//feature type
+$route['api/v1/create-feature-type'] = 'api/FeatureController/createFeatureType';
+$route['api/v1/feature-type-list'] = 'api/FeatureController/getFeatureTypeList';
+$route['api/v1/create-feature-type'] = 'api/FeatureController/createFeatureType';
+$route['api/v1/active-feature-type-list'] = 'api/FeatureController/getActiveFeatureTypeList';
+$route['api/v1/get-feature-list-by-type'] = 'api/FeatureController/getFeatureListByType';

@@ -142,7 +142,7 @@ class UserModel extends CI_Model
     {
         $res = $this->db->insert("user", $data);
         if ($res) {
-            return true;
+            return $this->db->insert_id();
         } else {
             return false;
         }
@@ -152,7 +152,7 @@ class UserModel extends CI_Model
     {
         $res = $this->db->where("userId", $data['userId'])->update("user", $data);
         if ($res) {
-            return true;
+            return $data['userId'];
         } else {
             return false;
         }

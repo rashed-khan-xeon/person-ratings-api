@@ -42,7 +42,7 @@ class UserController extends Base_Api_Controller
                 $res = $this->user->update($user);
             }
             if ($res) {
-                $updatedUser = $this->user->get($user['userId']);
+                $updatedUser = $this->user->get($res);
                 $this->response($updatedUser, REST_Controller::HTTP_CREATED);
             } else {
                 $this->response(null, REST_Controller::HTTP_BAD_REQUEST);

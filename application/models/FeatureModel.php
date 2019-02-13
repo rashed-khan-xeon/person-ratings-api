@@ -12,7 +12,7 @@ class FeatureModel extends CI_Model
     {
         $res = $this->db->insert("feature", $data);
         if ($res) {
-            return true;
+            return $this->db->insert_id();
         } else {
             return false;
         }
@@ -22,7 +22,7 @@ class FeatureModel extends CI_Model
     {
         $res = $this->db->where("featureId", $data['featureId'])->update("feature", $data);
         if ($res) {
-            return true;
+            return $data['featureId'];
         } else {
             return false;
         }
@@ -43,6 +43,16 @@ class FeatureModel extends CI_Model
     {
         $this->load->model("UserModel", "userModel");
         $res = $this->db->select("*")->from("feature")->where("createdUserId", $userId)->get()->result();
+        foreach ($res as $data) {
+            $data->users = $this->userModel->getAllByFeatureId($data->featureId);
+        }
+        return $res;
+    }
+
+    function getAllByFeatureTypeId($featureTypeId)
+    {
+        $this->load->model("UserModel", "userModel");
+        $res = $this->db->select("*")->from("feature")->where("featureTypeId", $featureTypeId)->get()->result();
         foreach ($res as $data) {
             $data->users = $this->userModel->getAllByFeatureId($data->featureId);
         }
