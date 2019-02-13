@@ -54,10 +54,22 @@ class FeatureTypeModel extends CI_Model
 
     function getAllActiveFeatureType($userId)
     {
-        $this->load->model("FeatureModel", "featureModel");
+        $this->load->model("UserModel", "userModel");
         $res = $this->db->select("*")->from("feature_type")->where("userId", $userId)->where("active", 1)->get()->result();
         foreach ($res as $data) {
             $data->users = $this->userModel->getAllByFeatureId($data->featureId);
+        }
+        return $res;
+    }
+
+    function getAllActiveFeatureTypes()
+    {
+        $this->load->model("FeatureModel", "featureModel");
+        $this->load->model("UserModel", "userModel");
+        $res = $this->db->select("*")->from("feature_type")->where("active", 1)->get()->result();
+        foreach ($res as $data) {
+            $data->features = $this->featureModel->getAllByFeatureTypeId($data->featureTypeId);
+            $data->user = $this->userModel->get($data->userId);
         }
         return $res;
     }

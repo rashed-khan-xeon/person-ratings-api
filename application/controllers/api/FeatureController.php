@@ -119,6 +119,21 @@ class FeatureController extends Base_Api_Controller
         }
     }
 
+    public function getActiveFeatureListByTypeId_get()
+    {
+        $this->isAuth();
+        $id = $this->get("featureTypeId");
+        if ($id == 0 or is_null($id)) {
+            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
+        }
+        $featureList = $this->fm->getAllByActiveFeatureTypeId($id);
+        if ($featureList) {
+            $this->response($featureList, REST_Controller::HTTP_OK);
+        } else {
+            $this->response("No Content Found", REST_Controller::HTTP_NOT_FOUND);
+        }
+    }
+
     public function getFeatureWiseAssignList_get()
     {
         $this->isAuth();
@@ -180,12 +195,8 @@ class FeatureController extends Base_Api_Controller
 
     public function getActiveFeatureTypeList_get()
     {
-        $this->isAuth();
-        $id = $this->get("userId");
-        if ($id == 0 or is_null($id)) {
-            $this->response("Invalid Request", REST_Controller::HTTP_BAD_REQUEST);
-        }
-        $featureTypeList = $this->ftm->getAllActiveFeatureType($id);
+
+        $featureTypeList = $this->ftm->getAllActiveFeatureTypes();
         if ($featureTypeList) {
             $this->response($featureTypeList, REST_Controller::HTTP_OK);
         } else {
