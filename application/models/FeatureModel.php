@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 5.2.19
- * Time: 10:10 PM
- */
 class FeatureModel extends CI_Model
 {
     function insert($data)

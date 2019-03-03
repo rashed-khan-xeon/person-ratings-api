@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 28.12.17
- * Time: 01:03 AM
- */
 require "Base_Api_Controller.php";
 
 class RatingsCategory extends Base_Api_Controller

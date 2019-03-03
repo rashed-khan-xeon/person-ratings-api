@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 25.12.17
- * Time: 12:12 AM
- */
 class UserRoleModel extends CI_Model
 {
 

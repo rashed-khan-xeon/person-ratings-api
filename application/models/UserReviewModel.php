@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 30.12.17
- * Time: 12:11 AM
- */
 class UserReviewModel extends CI_Model
 {
     public function insert($data)

@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 27.12.17
- * Time: 02:10 AM
- */
 require_once "Base_Api_Controller.php";
 
 class UserRatingsController extends Base_Api_Controller

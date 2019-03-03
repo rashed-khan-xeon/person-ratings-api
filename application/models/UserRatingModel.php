@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 27.12.17
- * Time: 02:12 AM
- */
 class UserRatingModel extends CI_Model
 {
 

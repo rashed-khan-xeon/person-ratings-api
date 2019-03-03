@@ -2,12 +2,6 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 20.12.17
- * Time: 11:39 PM
- */
 require 'Base_Api_Controller.php';
 
 class FeatureController extends Base_Api_Controller

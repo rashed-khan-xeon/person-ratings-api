@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 27.12.17
- * Time: 02:23 AM
- */
 class RatingsCategoryModel extends CI_Model
 {
 

@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 31.12.17
- * Time: 12:59 AM
- */
 require "Base_Api_Controller.php";
 
 class UserTypeController extends Base_Api_Controller

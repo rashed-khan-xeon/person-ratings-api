@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 13.2.19
- * Time: 12:06 AM
- */
 class FeatureTypeModel extends CI_Model
 {
 
@@ -21,6 +15,7 @@ class FeatureTypeModel extends CI_Model
 
     function update($data)
     {
+        unset($data['user']);
         $res = $this->db->where("featureTypeId", $data['featureTypeId'])->update("feature_type", $data);
         if ($res) {
             return $data['featureTypeId'];

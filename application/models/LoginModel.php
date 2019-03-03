@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 20.12.17
- * Time: 11:43 PM
- */
+
 class LoginModel extends CI_Model
 {
     public function checkLoginInfo($userEmail, $password)

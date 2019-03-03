@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 30.12.17
- * Time: 11:15 PM
- */
 require "Base_Api_Controller.php";
 
 class CategoryController extends Base_Api_Controller

@@ -1,12 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 24.12.17
- * Time: 12:39 AM
- */
-
 
 require APPPATH . 'libraries/REST_Controller.php';
 

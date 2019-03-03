@@ -1,13 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 11.12.17
- * Time: 01:08 AM
- */
-
 require 'Base_Api_Controller.php';
 
 class UserController extends Base_Api_Controller

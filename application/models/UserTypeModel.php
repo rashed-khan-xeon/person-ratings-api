@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 31.12.17
- * Time: 12:38 AM
- */
 class UserTypeModel extends CI_Model
 {
     public function get($id)

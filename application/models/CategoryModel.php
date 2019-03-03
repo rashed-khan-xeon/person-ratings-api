@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: arifk
- * Date: 28.12.17
- * Time: 01:36 AM
- */
 class CategoryModel extends CI_Model
 {
     public function get($id)
